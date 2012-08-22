@@ -70,10 +70,11 @@ module.exports = function(grunt) {
 			style.cssRules.forEach( function( selectorStyle ){
 				background = selectorStyle.style["background"] || selectorStyle.style["background-image"];
 				imgUrl = ( background && background.match(rimgUrl) ); 
-				//如果是绝对路径不替换
-				if( imgUrl && imgUrl[1] && !grunt.file.isPathAbsolute(imgUrl[1]) ){
+				
+				//如果是绝对路径不替换,并且去掉引号
+				if( imgUrl && imgUrl[1] && (imgUrl[1] = imgUrl[1].replace(/^["']+|["']+$/g,"") )&& !grunt.file.isPathAbsolute(imgUrl[1]) ){
 					background = background.replace(rimgUrl,function(allS,url){
-																return "url(" + path.join(relative,url.trim()).split("\\").join("\/") + ")"
+																return "url(" + path.join(relative,url.trim().replace(/^["']+|["']+$/g,"")).split("\\").join("\/") + ")"
 															});	
 					if( selectorStyle.style["background"] ){
 						selectorStyle.style["background"] = background;	
