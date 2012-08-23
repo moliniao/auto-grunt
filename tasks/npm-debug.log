@@ -1,0 +1,1273 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '-force',
+1 verbose cli   'auto-grunt' ]
+2 info using npm@1.1.33
+3 info using node@v0.8.1
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose config file C:\Documents and Settings\mozhuoying\.npmrc
+6 verbose config file C:\Program Files\nodejs\etc\npmrc
+7 verbose config file C:\Program Files\nodejs\node_modules\npm\npmrc
+8 verbose publish [ 'auto-grunt' ]
+9 verbose read json C:\Documents and Settings\mozhuoying\Application Data\npm\node_modules\git\auto-grunt\tasks\auto-grunt\package.json
+10 verbose cache add [ 'auto-grunt', null ]
+11 silly cache add name=undefined spec="auto-grunt" args=["auto-grunt",null]
+12 verbose parsed url { pathname: 'auto-grunt',
+12 verbose parsed url   path: 'auto-grunt',
+12 verbose parsed url   href: 'auto-grunt' }
+13 verbose lock auto-grunt C:\Documents and Settings\mozhuoying\Application Data\npm-cache\cdbb1398497b09af2621cea7d7fda9a501c47419-auto-grunt.lock
+14 verbose addNamed [ 'auto-grunt', '' ]
+15 verbose addNamed [ null, '' ]
+16 verbose lock auto-grunt@ C:\Documents and Settings\mozhuoying\Application Data\npm-cache\f032e972155ea20292b6d8ec1a6e620912a152f5-auto-grunt-.lock
+17 silly addNameRange { name: 'auto-grunt', range: '', hasData: false }
+18 verbose url raw auto-grunt
+19 verbose url resolving [ 'https://registry.npmjs.org/', './auto-grunt' ]
+20 verbose url resolved https://registry.npmjs.org/auto-grunt
+21 info retry registry request attempt 1 at 19:12:19
+22 http GET https://registry.npmjs.org/auto-grunt
+23 http 200 https://registry.npmjs.org/auto-grunt
+24 silly registry.get cb [ 200,
+24 silly registry.get   { vary: 'Accept',
+24 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+24 silly registry.get     etag: '"7XRTCDXD5JD9WD7ZRVB3NLKG3"',
+24 silly registry.get     date: 'Wed, 22 Aug 2012 11:12:23 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '28834' } ]
+25 silly addNameRange number 2 { name: 'auto-grunt', range: '', hasData: true }
+26 silly addNameRange versions [ 'auto-grunt', [ '0.0.1', '0.0.2', '0.0.2pre' ] ]
+27 verbose addNamed [ 'auto-grunt', '0.0.2pre' ]
+28 verbose addNamed [ '0.0.2pre', '0.0.2pre' ]
+29 verbose lock auto-grunt@0.0.2pre C:\Documents and Settings\mozhuoying\Application Data\npm-cache\ffb885e1a0a557de9a19a64bc01841b78668881a-auto-grunt-0-0-2pre.lock
+30 verbose lock https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2pre.tgz C:\Documents and Settings\mozhuoying\Application Data\npm-cache\4a85157276ca1166918587a211ecca68d1d9db0b-https-registry-npmjs-org-auto-grunt-auto-grunt-0-0-2pre-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2pre.tgz',
+31 verbose addRemoteTarball   '29e82a736ad7dfe13f8c10187991035c264ef7ed' ]
+32 info retry fetch attempt 1 at 19:12:25
+33 verbose fetch to= C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633945496-0.47770955762825906\tmp.tgz
+34 http GET https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2pre.tgz
+35 http 200 https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2pre.tgz
+36 silly shasum updated bytes 40960
+37 silly shasum updated bytes 40960
+38 silly shasum updated bytes 40960
+39 silly shasum updated bytes 40960
+40 silly shasum updated bytes 40960
+41 silly shasum updated bytes 1561
+42 info shasum 29e82a736ad7dfe13f8c10187991035c264ef7ed
+42 info shasum C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633945496-0.47770955762825906\tmp.tgz
+43 verbose tar unpack C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633945496-0.47770955762825906\tmp.tgz
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+47 silly gunzTarPerm extractEntry .npmignore
+48 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+51 silly gunzTarPerm extractEntry grunt.js
+52 silly gunzTarPerm modified mode [ 'grunt.js', 438, 420 ]
+53 silly gunzTarPerm extractEntry test/fixtures/a.js
+54 silly gunzTarPerm modified mode [ 'test/fixtures/a.js', 438, 420 ]
+55 silly gunzTarPerm extractEntry test/fixtures/b.js
+56 silly gunzTarPerm modified mode [ 'test/fixtures/b.js', 438, 420 ]
+57 silly gunzTarPerm extractEntry test/fixtures/banner.js
+58 silly gunzTarPerm modified mode [ 'test/fixtures/banner.js', 438, 420 ]
+59 silly gunzTarPerm extractEntry test/fixtures/banner2.js
+60 silly gunzTarPerm modified mode [ 'test/fixtures/banner2.js', 438, 420 ]
+61 silly gunzTarPerm extractEntry test/fixtures/banner3.js
+62 silly gunzTarPerm modified mode [ 'test/fixtures/banner3.js', 438, 420 ]
+63 silly gunzTarPerm extractEntry test/fixtures/octocat.png
+64 silly gunzTarPerm modified mode [ 'test/fixtures/octocat.png', 438, 420 ]
+65 silly gunzTarPerm extractEntry test/fixtures/template.txt
+66 silly gunzTarPerm modified mode [ 'test/fixtures/template.txt', 438, 420 ]
+67 silly gunzTarPerm extractEntry test/fixtures/test.json
+68 silly gunzTarPerm modified mode [ 'test/fixtures/test.json', 438, 420 ]
+69 silly gunzTarPerm extractEntry test/grunt/file_test.js
+70 silly gunzTarPerm modified mode [ 'test/grunt/file_test.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry test/grunt/template_test.js
+72 silly gunzTarPerm modified mode [ 'test/grunt/template_test.js', 438, 420 ]
+73 silly gunzTarPerm extractEntry test/grunt/utils_test.js
+74 silly gunzTarPerm modified mode [ 'test/grunt/utils_test.js', 438, 420 ]
+75 silly gunzTarPerm extractEntry test/tasks/concat_test.js
+76 silly gunzTarPerm modified mode [ 'test/tasks/concat_test.js', 438, 420 ]
+77 silly gunzTarPerm extractEntry test/tasks/init_test.js
+78 silly gunzTarPerm modified mode [ 'test/tasks/init_test.js', 438, 420 ]
+79 silly gunzTarPerm extractEntry test/tasks/misc_test.js
+80 silly gunzTarPerm modified mode [ 'test/tasks/misc_test.js', 438, 420 ]
+81 silly gunzTarPerm extractEntry test/util/namespace_test.js
+82 silly gunzTarPerm modified mode [ 'test/util/namespace_test.js', 438, 420 ]
+83 silly gunzTarPerm extractEntry test/util/task_test.js
+84 silly gunzTarPerm modified mode [ 'test/util/task_test.js', 438, 420 ]
+85 silly gunzTarPerm extractEntry bin/auto-grunt
+86 silly gunzTarPerm modified mode [ 'bin/auto-grunt', 438, 420 ]
+87 silly gunzTarPerm extractEntry LICENSE-MIT
+88 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+89 silly gunzTarPerm extractEntry dev/init.exp
+90 silly gunzTarPerm modified mode [ 'dev/init.exp', 438, 420 ]
+91 silly gunzTarPerm extractEntry docs/README.md
+92 silly gunzTarPerm modified mode [ 'docs/README.md', 438, 420 ]
+93 silly gunzTarPerm extractEntry docs/getting_started.md
+94 silly gunzTarPerm modified mode [ 'docs/getting_started.md', 438, 420 ]
+95 silly gunzTarPerm extractEntry docs/api_fail.md
+96 silly gunzTarPerm modified mode [ 'docs/api_fail.md', 438, 420 ]
+97 silly gunzTarPerm extractEntry docs/api_file.md
+98 silly gunzTarPerm modified mode [ 'docs/api_file.md', 438, 420 ]
+99 silly gunzTarPerm extractEntry docs/api_log.md
+100 silly gunzTarPerm modified mode [ 'docs/api_log.md', 438, 420 ]
+101 silly gunzTarPerm extractEntry docs/api_task.md
+102 silly gunzTarPerm modified mode [ 'docs/api_task.md', 438, 420 ]
+103 silly gunzTarPerm extractEntry docs/api_template.md
+104 silly gunzTarPerm modified mode [ 'docs/api_template.md', 438, 420 ]
+105 silly gunzTarPerm extractEntry docs/api_utils.md
+106 silly gunzTarPerm modified mode [ 'docs/api_utils.md', 438, 420 ]
+107 silly gunzTarPerm extractEntry docs/contributing.md
+108 silly gunzTarPerm modified mode [ 'docs/contributing.md', 438, 420 ]
+109 silly gunzTarPerm extractEntry docs/example_gruntfiles.md
+110 silly gunzTarPerm modified mode [ 'docs/example_gruntfiles.md', 438, 420 ]
+111 silly gunzTarPerm extractEntry docs/exit_codes.md
+112 silly gunzTarPerm modified mode [ 'docs/exit_codes.md', 438, 420 ]
+113 silly gunzTarPerm extractEntry docs/faq.md
+114 silly gunzTarPerm modified mode [ 'docs/faq.md', 438, 420 ]
+115 silly gunzTarPerm extractEntry docs/api_config.md
+116 silly gunzTarPerm modified mode [ 'docs/api_config.md', 438, 420 ]
+117 silly gunzTarPerm extractEntry docs/helpers_directives.md
+118 silly gunzTarPerm modified mode [ 'docs/helpers_directives.md', 438, 420 ]
+119 silly gunzTarPerm extractEntry docs/plugins.md
+120 silly gunzTarPerm modified mode [ 'docs/plugins.md', 438, 420 ]
+121 silly gunzTarPerm extractEntry docs/api.md
+122 silly gunzTarPerm modified mode [ 'docs/api.md', 438, 420 ]
+123 silly gunzTarPerm extractEntry docs/task_concat.md
+124 silly gunzTarPerm modified mode [ 'docs/task_concat.md', 438, 420 ]
+125 silly gunzTarPerm extractEntry docs/task_init.md
+126 silly gunzTarPerm modified mode [ 'docs/task_init.md', 438, 420 ]
+127 silly gunzTarPerm extractEntry docs/task_lint.md
+128 silly gunzTarPerm modified mode [ 'docs/task_lint.md', 438, 420 ]
+129 silly gunzTarPerm extractEntry docs/task_min.md
+130 silly gunzTarPerm modified mode [ 'docs/task_min.md', 438, 420 ]
+131 silly gunzTarPerm extractEntry docs/task_qunit.md
+132 silly gunzTarPerm modified mode [ 'docs/task_qunit.md', 438, 420 ]
+133 silly gunzTarPerm extractEntry docs/task_server.md
+134 silly gunzTarPerm modified mode [ 'docs/task_server.md', 438, 420 ]
+135 silly gunzTarPerm extractEntry docs/toc.md
+136 silly gunzTarPerm modified mode [ 'docs/toc.md', 438, 420 ]
+137 silly gunzTarPerm extractEntry docs/types_of_tasks.md
+138 silly gunzTarPerm modified mode [ 'docs/types_of_tasks.md', 438, 420 ]
+139 silly gunzTarPerm extractEntry tasks/concat.js
+140 silly gunzTarPerm modified mode [ 'tasks/concat.js', 438, 420 ]
+141 silly gunzTarPerm extractEntry tasks/lint.js
+142 silly gunzTarPerm modified mode [ 'tasks/lint.js', 438, 420 ]
+143 silly gunzTarPerm extractEntry tasks/min.js
+144 silly gunzTarPerm modified mode [ 'tasks/min.js', 438, 420 ]
+145 silly gunzTarPerm extractEntry tasks/mincss.js
+146 silly gunzTarPerm modified mode [ 'tasks/mincss.js', 438, 420 ]
+147 silly gunzTarPerm extractEntry tasks/init.js
+148 silly gunzTarPerm modified mode [ 'tasks/init.js', 438, 420 ]
+149 silly gunzTarPerm extractEntry tasks/watch.js
+150 silly gunzTarPerm modified mode [ 'tasks/watch.js', 438, 420 ]
+151 silly gunzTarPerm extractEntry tasks/test.js
+152 silly gunzTarPerm modified mode [ 'tasks/test.js', 438, 420 ]
+153 silly gunzTarPerm extractEntry tasks/qunit.js
+154 silly gunzTarPerm modified mode [ 'tasks/qunit.js', 438, 420 ]
+155 silly gunzTarPerm extractEntry tasks/server.js
+156 silly gunzTarPerm modified mode [ 'tasks/server.js', 438, 420 ]
+157 silly gunzTarPerm extractEntry tasks/sprite.js
+158 silly gunzTarPerm modified mode [ 'tasks/sprite.js', 438, 420 ]
+159 silly gunzTarPerm extractEntry tasks/minjs.js
+160 silly gunzTarPerm modified mode [ 'tasks/minjs.js', 438, 420 ]
+161 silly gunzTarPerm extractEntry tasks/watchsmarty.js
+162 silly gunzTarPerm modified mode [ 'tasks/watchsmarty.js', 438, 420 ]
+163 silly gunzTarPerm extractEntry tasks/misc.js
+164 silly gunzTarPerm modified mode [ 'tasks/misc.js', 438, 420 ]
+165 silly gunzTarPerm extractEntry tasks/qunit/phantom.js
+166 silly gunzTarPerm modified mode [ 'tasks/qunit/phantom.js', 438, 420 ]
+167 silly gunzTarPerm extractEntry tasks/qunit/qunit.js
+168 silly gunzTarPerm modified mode [ 'tasks/qunit/qunit.js', 438, 420 ]
+169 silly gunzTarPerm extractEntry tasks/qunit/phantom.json
+170 silly gunzTarPerm modified mode [ 'tasks/qunit/phantom.json', 438, 420 ]
+171 silly gunzTarPerm extractEntry tasks/init/node.js
+172 silly gunzTarPerm modified mode [ 'tasks/init/node.js', 438, 420 ]
+173 silly gunzTarPerm extractEntry tasks/init/gruntfile.js
+174 silly gunzTarPerm modified mode [ 'tasks/init/gruntfile.js', 438, 420 ]
+175 silly gunzTarPerm extractEntry tasks/init/gruntplugin.js
+176 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin.js', 438, 420 ]
+177 silly gunzTarPerm extractEntry tasks/init/commonjs.js
+178 silly gunzTarPerm modified mode [ 'tasks/init/commonjs.js', 438, 420 ]
+179 silly gunzTarPerm extractEntry tasks/init/jquery.js
+180 silly gunzTarPerm modified mode [ 'tasks/init/jquery.js', 438, 420 ]
+181 silly gunzTarPerm extractEntry tasks/init/gruntfile/root/grunt.js
+182 silly gunzTarPerm modified mode [ 'tasks/init/gruntfile/root/grunt.js', 438, 420 ]
+183 silly gunzTarPerm extractEntry tasks/init/commonjs/rename.json
+184 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/rename.json', 438, 420 ]
+185 silly gunzTarPerm extractEntry tasks/init/commonjs/root/.npmignore
+186 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/.npmignore', 438, 420 ]
+187 silly gunzTarPerm extractEntry tasks/init/commonjs/root/README.md
+188 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/README.md', 438, 420 ]
+189 silly gunzTarPerm extractEntry tasks/init/commonjs/root/grunt.js
+190 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/grunt.js', 438, 420 ]
+191 silly gunzTarPerm extractEntry tasks/init/commonjs/root/lib/name.js
+192 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/lib/name.js', 438, 420 ]
+193 silly gunzTarPerm extractEntry tasks/init/commonjs/root/test/name_test.js
+194 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/test/name_test.js', 438, 420 ]
+195 silly gunzTarPerm extractEntry tasks/init/gruntplugin/rename.json
+196 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/rename.json', 438, 420 ]
+197 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/.npmignore
+198 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/.npmignore', 438, 420 ]
+199 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/README.md
+200 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/README.md', 438, 420 ]
+201 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/grunt.js
+202 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/grunt.js', 438, 420 ]
+203 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/bin/name
+204 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/bin/name', 438, 420 ]
+205 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/tasks/name.js
+206 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/tasks/name.js', 438, 420 ]
+207 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/test/name_test.js
+208 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/test/name_test.js', 438, 420 ]
+209 silly gunzTarPerm extractEntry tasks/init/licenses/LICENSE-GPL
+210 silly gunzTarPerm modified mode [ 'tasks/init/licenses/LICENSE-GPL', 438, 420 ]
+211 silly gunzTarPerm extractEntry tasks/init/licenses/LICENSE-MIT
+212 silly gunzTarPerm modified mode [ 'tasks/init/licenses/LICENSE-MIT', 438, 420 ]
+213 silly gunzTarPerm extractEntry tasks/init/misc/placeholder
+214 silly gunzTarPerm modified mode [ 'tasks/init/misc/placeholder', 438, 420 ]
+215 silly gunzTarPerm extractEntry tasks/init/node/rename.json
+216 silly gunzTarPerm modified mode [ 'tasks/init/node/rename.json', 438, 420 ]
+217 silly gunzTarPerm extractEntry tasks/init/node/root/.npmignore
+218 silly gunzTarPerm modified mode [ 'tasks/init/node/root/.npmignore', 438, 420 ]
+219 silly gunzTarPerm extractEntry tasks/init/node/root/README.md
+220 silly gunzTarPerm modified mode [ 'tasks/init/node/root/README.md', 438, 420 ]
+221 silly gunzTarPerm extractEntry tasks/init/node/root/grunt.js
+222 silly gunzTarPerm modified mode [ 'tasks/init/node/root/grunt.js', 438, 420 ]
+223 silly gunzTarPerm extractEntry tasks/init/node/root/lib/name.js
+224 silly gunzTarPerm modified mode [ 'tasks/init/node/root/lib/name.js', 438, 420 ]
+225 silly gunzTarPerm extractEntry tasks/init/node/root/test/name_test.js
+226 silly gunzTarPerm modified mode [ 'tasks/init/node/root/test/name_test.js', 438, 420 ]
+227 silly gunzTarPerm extractEntry tasks/init/jquery/rename.json
+228 silly gunzTarPerm modified mode [ 'tasks/init/jquery/rename.json', 438, 420 ]
+229 silly gunzTarPerm extractEntry tasks/init/jquery/root/README.md
+230 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/README.md', 438, 420 ]
+231 silly gunzTarPerm extractEntry tasks/init/jquery/root/grunt.js
+232 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/grunt.js', 438, 420 ]
+233 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/jquery-loader.js
+234 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/jquery-loader.js', 438, 420 ]
+235 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/jquery/jquery.js
+236 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/jquery/jquery.js', 438, 420 ]
+237 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/qunit/qunit.js
+238 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/qunit/qunit.js', 438, 420 ]
+239 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/qunit/qunit.css
+240 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/qunit/qunit.css', 438, 420 ]
+241 silly gunzTarPerm extractEntry tasks/init/jquery/root/src/name.js
+242 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/src/name.js', 438, 420 ]
+243 silly gunzTarPerm extractEntry tasks/init/jquery/root/test/name_test.js
+244 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/test/name_test.js', 438, 420 ]
+245 silly gunzTarPerm extractEntry tasks/init/jquery/root/test/name.html
+246 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/test/name.html', 438, 420 ]
+247 silly gunzTarPerm extractEntry lib/grunt.js
+248 silly gunzTarPerm modified mode [ 'lib/grunt.js', 438, 420 ]
+249 silly gunzTarPerm extractEntry lib/grunt/cli.js
+250 silly gunzTarPerm modified mode [ 'lib/grunt/cli.js', 438, 420 ]
+251 silly gunzTarPerm extractEntry lib/grunt/fail.js
+252 silly gunzTarPerm modified mode [ 'lib/grunt/fail.js', 438, 420 ]
+253 silly gunzTarPerm extractEntry lib/grunt/file.js
+254 silly gunzTarPerm modified mode [ 'lib/grunt/file.js', 438, 420 ]
+255 silly gunzTarPerm extractEntry lib/grunt/help.js
+256 silly gunzTarPerm modified mode [ 'lib/grunt/help.js', 438, 420 ]
+257 silly gunzTarPerm extractEntry lib/grunt/config.js
+258 silly gunzTarPerm modified mode [ 'lib/grunt/config.js', 438, 420 ]
+259 silly gunzTarPerm extractEntry lib/grunt/option.js
+260 silly gunzTarPerm modified mode [ 'lib/grunt/option.js', 438, 420 ]
+261 silly gunzTarPerm extractEntry lib/grunt/sprite.js
+262 silly gunzTarPerm modified mode [ 'lib/grunt/sprite.js', 438, 420 ]
+263 silly gunzTarPerm extractEntry lib/grunt/task.js
+264 silly gunzTarPerm modified mode [ 'lib/grunt/task.js', 438, 420 ]
+265 silly gunzTarPerm extractEntry lib/grunt/template.js
+266 silly gunzTarPerm modified mode [ 'lib/grunt/template.js', 438, 420 ]
+267 silly gunzTarPerm extractEntry lib/grunt/utils.js
+268 silly gunzTarPerm modified mode [ 'lib/grunt/utils.js', 438, 420 ]
+269 silly gunzTarPerm extractEntry lib/grunt/log.js
+270 silly gunzTarPerm modified mode [ 'lib/grunt/log.js', 438, 420 ]
+271 silly gunzTarPerm extractEntry lib/util/findup.js
+272 silly gunzTarPerm modified mode [ 'lib/util/findup.js', 438, 420 ]
+273 silly gunzTarPerm extractEntry lib/util/namespace.js
+274 silly gunzTarPerm modified mode [ 'lib/util/namespace.js', 438, 420 ]
+275 silly gunzTarPerm extractEntry lib/util/task.js
+276 silly gunzTarPerm modified mode [ 'lib/util/task.js', 438, 420 ]
+277 verbose read json C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633945496-0.47770955762825906\package\package.json
+278 verbose from cache C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633945496-0.47770955762825906\package\package.json
+279 verbose tar pack [ 'C:\\Documents and Settings\\mozhuoying\\Application Data\\npm-cache\\auto-grunt\\0.0.2pre\\package.tgz',
+279 verbose tar pack   'C:\\DOCUME~1\\MOZHUO~1\\LOCALS~1\\Temp\\npm-8836\\1345633945496-0.47770955762825906\\package' ]
+280 verbose tarball C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2pre\package.tgz
+281 verbose folder C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633945496-0.47770955762825906\package
+282 verbose tar unpack C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2pre\package.tgz
+283 silly gunzTarPerm modes [ '755', '644' ]
+284 silly gunzTarPerm extractEntry package.json
+285 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+286 silly gunzTarPerm extractEntry .npmignore
+287 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+288 silly gunzTarPerm extractEntry README.md
+289 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+290 silly gunzTarPerm extractEntry grunt.js
+291 silly gunzTarPerm modified mode [ 'grunt.js', 438, 420 ]
+292 silly gunzTarPerm extractEntry test/fixtures/a.js
+293 silly gunzTarPerm modified mode [ 'test/fixtures/a.js', 438, 420 ]
+294 silly gunzTarPerm extractEntry test/fixtures/b.js
+295 silly gunzTarPerm modified mode [ 'test/fixtures/b.js', 438, 420 ]
+296 silly gunzTarPerm extractEntry test/fixtures/banner.js
+297 silly gunzTarPerm modified mode [ 'test/fixtures/banner.js', 438, 420 ]
+298 silly gunzTarPerm extractEntry test/fixtures/banner2.js
+299 silly gunzTarPerm modified mode [ 'test/fixtures/banner2.js', 438, 420 ]
+300 silly gunzTarPerm extractEntry test/fixtures/banner3.js
+301 silly gunzTarPerm modified mode [ 'test/fixtures/banner3.js', 438, 420 ]
+302 silly gunzTarPerm extractEntry test/fixtures/octocat.png
+303 silly gunzTarPerm modified mode [ 'test/fixtures/octocat.png', 438, 420 ]
+304 silly gunzTarPerm extractEntry test/fixtures/template.txt
+305 silly gunzTarPerm modified mode [ 'test/fixtures/template.txt', 438, 420 ]
+306 silly gunzTarPerm extractEntry test/fixtures/test.json
+307 silly gunzTarPerm modified mode [ 'test/fixtures/test.json', 438, 420 ]
+308 silly gunzTarPerm extractEntry test/grunt/file_test.js
+309 silly gunzTarPerm modified mode [ 'test/grunt/file_test.js', 438, 420 ]
+310 silly gunzTarPerm extractEntry test/grunt/template_test.js
+311 silly gunzTarPerm modified mode [ 'test/grunt/template_test.js', 438, 420 ]
+312 silly gunzTarPerm extractEntry test/grunt/utils_test.js
+313 silly gunzTarPerm modified mode [ 'test/grunt/utils_test.js', 438, 420 ]
+314 silly gunzTarPerm extractEntry test/tasks/concat_test.js
+315 silly gunzTarPerm modified mode [ 'test/tasks/concat_test.js', 438, 420 ]
+316 silly gunzTarPerm extractEntry test/tasks/init_test.js
+317 silly gunzTarPerm modified mode [ 'test/tasks/init_test.js', 438, 420 ]
+318 silly gunzTarPerm extractEntry test/tasks/misc_test.js
+319 silly gunzTarPerm modified mode [ 'test/tasks/misc_test.js', 438, 420 ]
+320 silly gunzTarPerm extractEntry test/util/namespace_test.js
+321 silly gunzTarPerm modified mode [ 'test/util/namespace_test.js', 438, 420 ]
+322 silly gunzTarPerm extractEntry test/util/task_test.js
+323 silly gunzTarPerm modified mode [ 'test/util/task_test.js', 438, 420 ]
+324 silly gunzTarPerm extractEntry bin/auto-grunt
+325 silly gunzTarPerm modified mode [ 'bin/auto-grunt', 438, 420 ]
+326 silly gunzTarPerm extractEntry LICENSE-MIT
+327 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+328 silly gunzTarPerm extractEntry dev/init.exp
+329 silly gunzTarPerm modified mode [ 'dev/init.exp', 438, 420 ]
+330 silly gunzTarPerm extractEntry docs/README.md
+331 silly gunzTarPerm modified mode [ 'docs/README.md', 438, 420 ]
+332 silly gunzTarPerm extractEntry docs/getting_started.md
+333 silly gunzTarPerm modified mode [ 'docs/getting_started.md', 438, 420 ]
+334 silly gunzTarPerm extractEntry docs/api_fail.md
+335 silly gunzTarPerm modified mode [ 'docs/api_fail.md', 438, 420 ]
+336 silly gunzTarPerm extractEntry docs/api_file.md
+337 silly gunzTarPerm modified mode [ 'docs/api_file.md', 438, 420 ]
+338 silly gunzTarPerm extractEntry docs/api_log.md
+339 silly gunzTarPerm modified mode [ 'docs/api_log.md', 438, 420 ]
+340 silly gunzTarPerm extractEntry docs/api_task.md
+341 silly gunzTarPerm modified mode [ 'docs/api_task.md', 438, 420 ]
+342 silly gunzTarPerm extractEntry docs/api_template.md
+343 silly gunzTarPerm modified mode [ 'docs/api_template.md', 438, 420 ]
+344 silly gunzTarPerm extractEntry docs/api_utils.md
+345 silly gunzTarPerm modified mode [ 'docs/api_utils.md', 438, 420 ]
+346 silly gunzTarPerm extractEntry docs/contributing.md
+347 silly gunzTarPerm modified mode [ 'docs/contributing.md', 438, 420 ]
+348 silly gunzTarPerm extractEntry docs/example_gruntfiles.md
+349 silly gunzTarPerm modified mode [ 'docs/example_gruntfiles.md', 438, 420 ]
+350 silly gunzTarPerm extractEntry docs/exit_codes.md
+351 silly gunzTarPerm modified mode [ 'docs/exit_codes.md', 438, 420 ]
+352 silly gunzTarPerm extractEntry docs/faq.md
+353 silly gunzTarPerm modified mode [ 'docs/faq.md', 438, 420 ]
+354 silly gunzTarPerm extractEntry docs/api_config.md
+355 silly gunzTarPerm modified mode [ 'docs/api_config.md', 438, 420 ]
+356 silly gunzTarPerm extractEntry docs/helpers_directives.md
+357 silly gunzTarPerm modified mode [ 'docs/helpers_directives.md', 438, 420 ]
+358 silly gunzTarPerm extractEntry docs/plugins.md
+359 silly gunzTarPerm modified mode [ 'docs/plugins.md', 438, 420 ]
+360 silly gunzTarPerm extractEntry docs/api.md
+361 silly gunzTarPerm modified mode [ 'docs/api.md', 438, 420 ]
+362 silly gunzTarPerm extractEntry docs/task_concat.md
+363 silly gunzTarPerm modified mode [ 'docs/task_concat.md', 438, 420 ]
+364 silly gunzTarPerm extractEntry docs/task_init.md
+365 silly gunzTarPerm modified mode [ 'docs/task_init.md', 438, 420 ]
+366 silly gunzTarPerm extractEntry docs/task_lint.md
+367 silly gunzTarPerm modified mode [ 'docs/task_lint.md', 438, 420 ]
+368 silly gunzTarPerm extractEntry docs/task_min.md
+369 silly gunzTarPerm modified mode [ 'docs/task_min.md', 438, 420 ]
+370 silly gunzTarPerm extractEntry docs/task_qunit.md
+371 silly gunzTarPerm modified mode [ 'docs/task_qunit.md', 438, 420 ]
+372 silly gunzTarPerm extractEntry docs/task_server.md
+373 silly gunzTarPerm modified mode [ 'docs/task_server.md', 438, 420 ]
+374 silly gunzTarPerm extractEntry docs/toc.md
+375 silly gunzTarPerm modified mode [ 'docs/toc.md', 438, 420 ]
+376 silly gunzTarPerm extractEntry docs/types_of_tasks.md
+377 silly gunzTarPerm modified mode [ 'docs/types_of_tasks.md', 438, 420 ]
+378 silly gunzTarPerm extractEntry tasks/concat.js
+379 silly gunzTarPerm modified mode [ 'tasks/concat.js', 438, 420 ]
+380 silly gunzTarPerm extractEntry tasks/lint.js
+381 silly gunzTarPerm modified mode [ 'tasks/lint.js', 438, 420 ]
+382 silly gunzTarPerm extractEntry tasks/min.js
+383 silly gunzTarPerm modified mode [ 'tasks/min.js', 438, 420 ]
+384 silly gunzTarPerm extractEntry tasks/mincss.js
+385 silly gunzTarPerm modified mode [ 'tasks/mincss.js', 438, 420 ]
+386 silly gunzTarPerm extractEntry tasks/init.js
+387 silly gunzTarPerm modified mode [ 'tasks/init.js', 438, 420 ]
+388 silly gunzTarPerm extractEntry tasks/watch.js
+389 silly gunzTarPerm modified mode [ 'tasks/watch.js', 438, 420 ]
+390 silly gunzTarPerm extractEntry tasks/test.js
+391 silly gunzTarPerm modified mode [ 'tasks/test.js', 438, 420 ]
+392 silly gunzTarPerm extractEntry tasks/qunit.js
+393 silly gunzTarPerm modified mode [ 'tasks/qunit.js', 438, 420 ]
+394 silly gunzTarPerm extractEntry tasks/server.js
+395 silly gunzTarPerm modified mode [ 'tasks/server.js', 438, 420 ]
+396 silly gunzTarPerm extractEntry tasks/sprite.js
+397 silly gunzTarPerm modified mode [ 'tasks/sprite.js', 438, 420 ]
+398 silly gunzTarPerm extractEntry tasks/minjs.js
+399 silly gunzTarPerm modified mode [ 'tasks/minjs.js', 438, 420 ]
+400 silly gunzTarPerm extractEntry tasks/watchsmarty.js
+401 silly gunzTarPerm modified mode [ 'tasks/watchsmarty.js', 438, 420 ]
+402 silly gunzTarPerm extractEntry tasks/misc.js
+403 silly gunzTarPerm modified mode [ 'tasks/misc.js', 438, 420 ]
+404 silly gunzTarPerm extractEntry tasks/qunit/phantom.js
+405 silly gunzTarPerm modified mode [ 'tasks/qunit/phantom.js', 438, 420 ]
+406 silly gunzTarPerm extractEntry tasks/qunit/qunit.js
+407 silly gunzTarPerm modified mode [ 'tasks/qunit/qunit.js', 438, 420 ]
+408 silly gunzTarPerm extractEntry tasks/qunit/phantom.json
+409 silly gunzTarPerm modified mode [ 'tasks/qunit/phantom.json', 438, 420 ]
+410 silly gunzTarPerm extractEntry tasks/init/node.js
+411 silly gunzTarPerm modified mode [ 'tasks/init/node.js', 438, 420 ]
+412 silly gunzTarPerm extractEntry tasks/init/gruntfile.js
+413 silly gunzTarPerm modified mode [ 'tasks/init/gruntfile.js', 438, 420 ]
+414 silly gunzTarPerm extractEntry tasks/init/gruntplugin.js
+415 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin.js', 438, 420 ]
+416 silly gunzTarPerm extractEntry tasks/init/commonjs.js
+417 silly gunzTarPerm modified mode [ 'tasks/init/commonjs.js', 438, 420 ]
+418 silly gunzTarPerm extractEntry tasks/init/jquery.js
+419 silly gunzTarPerm modified mode [ 'tasks/init/jquery.js', 438, 420 ]
+420 silly gunzTarPerm extractEntry tasks/init/gruntfile/root/grunt.js
+421 silly gunzTarPerm modified mode [ 'tasks/init/gruntfile/root/grunt.js', 438, 420 ]
+422 silly gunzTarPerm extractEntry tasks/init/commonjs/rename.json
+423 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/rename.json', 438, 420 ]
+424 silly gunzTarPerm extractEntry tasks/init/commonjs/root/.npmignore
+425 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/.npmignore', 438, 420 ]
+426 silly gunzTarPerm extractEntry tasks/init/commonjs/root/README.md
+427 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/README.md', 438, 420 ]
+428 silly gunzTarPerm extractEntry tasks/init/commonjs/root/grunt.js
+429 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/grunt.js', 438, 420 ]
+430 silly gunzTarPerm extractEntry tasks/init/commonjs/root/lib/name.js
+431 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/lib/name.js', 438, 420 ]
+432 silly gunzTarPerm extractEntry tasks/init/commonjs/root/test/name_test.js
+433 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/test/name_test.js', 438, 420 ]
+434 silly gunzTarPerm extractEntry tasks/init/gruntplugin/rename.json
+435 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/rename.json', 438, 420 ]
+436 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/.npmignore
+437 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/.npmignore', 438, 420 ]
+438 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/README.md
+439 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/README.md', 438, 420 ]
+440 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/grunt.js
+441 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/grunt.js', 438, 420 ]
+442 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/bin/name
+443 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/bin/name', 438, 420 ]
+444 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/tasks/name.js
+445 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/tasks/name.js', 438, 420 ]
+446 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/test/name_test.js
+447 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/test/name_test.js', 438, 420 ]
+448 silly gunzTarPerm extractEntry tasks/init/licenses/LICENSE-GPL
+449 silly gunzTarPerm modified mode [ 'tasks/init/licenses/LICENSE-GPL', 438, 420 ]
+450 silly gunzTarPerm extractEntry tasks/init/licenses/LICENSE-MIT
+451 silly gunzTarPerm modified mode [ 'tasks/init/licenses/LICENSE-MIT', 438, 420 ]
+452 silly gunzTarPerm extractEntry tasks/init/misc/placeholder
+453 silly gunzTarPerm modified mode [ 'tasks/init/misc/placeholder', 438, 420 ]
+454 silly gunzTarPerm extractEntry tasks/init/node/rename.json
+455 silly gunzTarPerm modified mode [ 'tasks/init/node/rename.json', 438, 420 ]
+456 silly gunzTarPerm extractEntry tasks/init/node/root/.npmignore
+457 silly gunzTarPerm modified mode [ 'tasks/init/node/root/.npmignore', 438, 420 ]
+458 silly gunzTarPerm extractEntry tasks/init/node/root/README.md
+459 silly gunzTarPerm modified mode [ 'tasks/init/node/root/README.md', 438, 420 ]
+460 silly gunzTarPerm extractEntry tasks/init/node/root/grunt.js
+461 silly gunzTarPerm modified mode [ 'tasks/init/node/root/grunt.js', 438, 420 ]
+462 silly gunzTarPerm extractEntry tasks/init/node/root/lib/name.js
+463 silly gunzTarPerm modified mode [ 'tasks/init/node/root/lib/name.js', 438, 420 ]
+464 silly gunzTarPerm extractEntry tasks/init/node/root/test/name_test.js
+465 silly gunzTarPerm modified mode [ 'tasks/init/node/root/test/name_test.js', 438, 420 ]
+466 silly gunzTarPerm extractEntry tasks/init/jquery/rename.json
+467 silly gunzTarPerm modified mode [ 'tasks/init/jquery/rename.json', 438, 420 ]
+468 silly gunzTarPerm extractEntry tasks/init/jquery/root/README.md
+469 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/README.md', 438, 420 ]
+470 silly gunzTarPerm extractEntry tasks/init/jquery/root/grunt.js
+471 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/grunt.js', 438, 420 ]
+472 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/jquery-loader.js
+473 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/jquery-loader.js', 438, 420 ]
+474 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/jquery/jquery.js
+475 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/jquery/jquery.js', 438, 420 ]
+476 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/qunit/qunit.js
+477 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/qunit/qunit.js', 438, 420 ]
+478 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/qunit/qunit.css
+479 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/qunit/qunit.css', 438, 420 ]
+480 silly gunzTarPerm extractEntry tasks/init/jquery/root/src/name.js
+481 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/src/name.js', 438, 420 ]
+482 silly gunzTarPerm extractEntry tasks/init/jquery/root/test/name_test.js
+483 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/test/name_test.js', 438, 420 ]
+484 silly gunzTarPerm extractEntry tasks/init/jquery/root/test/name.html
+485 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/test/name.html', 438, 420 ]
+486 silly gunzTarPerm extractEntry lib/grunt.js
+487 silly gunzTarPerm modified mode [ 'lib/grunt.js', 438, 420 ]
+488 silly gunzTarPerm extractEntry lib/grunt/cli.js
+489 silly gunzTarPerm modified mode [ 'lib/grunt/cli.js', 438, 420 ]
+490 silly gunzTarPerm extractEntry lib/grunt/fail.js
+491 silly gunzTarPerm modified mode [ 'lib/grunt/fail.js', 438, 420 ]
+492 silly gunzTarPerm extractEntry lib/grunt/file.js
+493 silly gunzTarPerm modified mode [ 'lib/grunt/file.js', 438, 420 ]
+494 silly gunzTarPerm extractEntry lib/grunt/help.js
+495 silly gunzTarPerm modified mode [ 'lib/grunt/help.js', 438, 420 ]
+496 silly gunzTarPerm extractEntry lib/grunt/config.js
+497 silly gunzTarPerm modified mode [ 'lib/grunt/config.js', 438, 420 ]
+498 silly gunzTarPerm extractEntry lib/grunt/option.js
+499 silly gunzTarPerm modified mode [ 'lib/grunt/option.js', 438, 420 ]
+500 silly gunzTarPerm extractEntry lib/grunt/sprite.js
+501 silly gunzTarPerm modified mode [ 'lib/grunt/sprite.js', 438, 420 ]
+502 silly gunzTarPerm extractEntry lib/grunt/task.js
+503 silly gunzTarPerm modified mode [ 'lib/grunt/task.js', 438, 420 ]
+504 silly gunzTarPerm extractEntry lib/grunt/template.js
+505 silly gunzTarPerm modified mode [ 'lib/grunt/template.js', 438, 420 ]
+506 silly gunzTarPerm extractEntry lib/grunt/utils.js
+507 silly gunzTarPerm modified mode [ 'lib/grunt/utils.js', 438, 420 ]
+508 silly gunzTarPerm extractEntry lib/grunt/log.js
+509 silly gunzTarPerm modified mode [ 'lib/grunt/log.js', 438, 420 ]
+510 silly gunzTarPerm extractEntry lib/util/findup.js
+511 silly gunzTarPerm modified mode [ 'lib/util/findup.js', 438, 420 ]
+512 silly gunzTarPerm extractEntry lib/util/namespace.js
+513 silly gunzTarPerm modified mode [ 'lib/util/namespace.js', 438, 420 ]
+514 silly gunzTarPerm extractEntry lib/util/task.js
+515 silly gunzTarPerm modified mode [ 'lib/util/task.js', 438, 420 ]
+516 verbose read json C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2pre\package\package.json
+517 silly shasum updated bytes 40960
+518 silly shasum updated bytes 40960
+519 silly shasum updated bytes 40960
+520 silly shasum updated bytes 40960
+521 silly shasum updated bytes 40960
+522 silly shasum updated bytes 1574
+523 info shasum 3ec12be3c633bac54cb8ddece43dc6c345f5a860
+523 info shasum C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2pre\package.tgz
+524 verbose from cache C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2pre\package\package.json
+525 verbose chmod C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2pre\package.tgz 644
+526 silly chown skipping for windows C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2pre\package.tgz
+527 silly publish { name: 'auto-grunt',
+527 silly publish   description: 'A task-based command line auto build tool for static resource.',
+527 silly publish   version: '0.0.2pre',
+527 silly publish   author:
+527 silly publish    { name: '"Cowboy" Ben Alman  and contributors',
+527 silly publish      url: 'http://gruntjs.com/' },
+527 silly publish   homepage: 'https://github.com/gruntjs/auto-grunt',
+527 silly publish   repository: { type: 'git', url: 'git://github.com/gruntjs/auto-grunt.git' },
+527 silly publish   bugs: { url: 'http://github.com/gruntjs/auto-grunt/issues' },
+527 silly publish   licenses:
+527 silly publish    [ { type: 'MIT',
+527 silly publish        url: 'https://github.com/gruntjs/auto-grunt/blob/master/LICENSE-MIT' } ],
+527 silly publish   main: 'lib/grunt',
+527 silly publish   bin: { 'auto-grunt': 'bin/auto-grunt' },
+527 silly publish   scripts: { test: 'grunt test' },
+527 silly publish   engines: { node: '>= 0.6.0' },
+527 silly publish   preferGlobal: true,
+527 silly publish   keywords:
+527 silly publish    [ 'async',
+527 silly publish      'cli',
+527 silly publish      'minify',
+527 silly publish      'uglify',
+527 silly publish      'build',
+527 silly publish      'underscore',
+527 silly publish      'unit',
+527 silly publish      'test',
+527 silly publish      'qunit',
+527 silly publish      'nodeunit',
+527 silly publish      'server',
+527 silly publish      'init',
+527 silly publish      'scaffold',
+527 silly publish      'make',
+527 silly publish      'gruntplugin',
+527 silly publish      'jake',
+527 silly publish      'tool',
+527 silly publish      'auto' ],
+527 silly publish   dependencies:
+527 silly publish    { cssom: '~0.2.5',
+527 silly publish      async: '~0.1.18',
+527 silly publish      colors: '~0.6.0',
+527 silly publish      connect: '~2.3.4',
+527 silly publish      dateformat: '1.0.2-1.2.3',
+527 silly publish      'iconv-lite': '~0.2.3',
+527 silly publish      'glob-whatev': '~0.1.4',
+527 silly publish      hooker: '~0.2.3',
+527 silly publish      jshint: '~0.5.9',
+527 silly publish      nodeunit: '~0.6.4',
+527 silly publish      nopt: '~1.0.10',
+527 silly publish      prompt: '~0.1.12',
+527 silly publish      'clean-css': '~0.4.1',
+527 silly publish      semver: '~1.0.13',
+527 silly publish      'uglify-js': '~1.0.7',
+527 silly publish      underscore: '~1.2.4',
+527 silly publish      'underscore.string': '~2.1.1',
+527 silly publish      temporary: '~0.0.4',
+527 silly publish      'gzip-js': '~0.3.1' },
+527 silly publish   devDependencies: {},
+527 silly publish   readme: '﻿auto-grunt\r\n\r\n自动化提取，压缩静态资源，自动合并图片，实现前端自动化\r\n特点：\r\n\r\n    自动提取模板文件中的js,css，实时进行合并与压缩。\r\n    自动转换压缩后css的图片路径为正确路径。\r\n    自动合并css中的图片为sprite,并自动修改css为正确的sprite位置。\r\n    支持多种模式的配置，适应不同的项目需求。\r\n    一键安装，一键运行，简单易用。\r\n',
+527 silly publish   _id: 'auto-grunt@0.0.2pre',
+527 silly publish   dist: { shasum: '3ec12be3c633bac54cb8ddece43dc6c345f5a860' } }
+528 info prepublish auto-grunt@0.0.2pre
+529 verbose url raw auto-grunt
+530 verbose url resolving [ 'https://registry.npmjs.org/', './auto-grunt' ]
+531 verbose url resolved https://registry.npmjs.org/auto-grunt
+532 info retry registry request attempt 1 at 19:12:35
+533 http PUT https://registry.npmjs.org/auto-grunt
+534 http 409 https://registry.npmjs.org/auto-grunt
+535 verbose url raw auto-grunt
+536 verbose url resolving [ 'https://registry.npmjs.org/', './auto-grunt' ]
+537 verbose url resolved https://registry.npmjs.org/auto-grunt
+538 info retry registry request attempt 1 at 19:12:39
+539 http GET https://registry.npmjs.org/auto-grunt
+540 http 200 https://registry.npmjs.org/auto-grunt
+541 warn publish Forced publish over auto-grunt@0.0.2pre
+542 verbose url raw auto-grunt
+543 verbose url resolving [ 'https://registry.npmjs.org/', './auto-grunt' ]
+544 verbose url resolved https://registry.npmjs.org/auto-grunt
+545 info retry registry request attempt 1 at 19:12:44
+546 verbose etag "7XRTCDXD5JD9WD7ZRVB3NLKG3"
+547 http GET https://registry.npmjs.org/auto-grunt
+548 http 304 https://registry.npmjs.org/auto-grunt
+549 silly registry.get cb [ 304,
+549 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+549 silly registry.get     etag: '"7XRTCDXD5JD9WD7ZRVB3NLKG3"',
+549 silly registry.get     date: 'Wed, 22 Aug 2012 11:12:48 GMT',
+549 silly registry.get     'content-length': '0' } ]
+550 verbose etag auto-grunt from cache
+551 verbose unpublish removing attachments { shasum: '29e82a736ad7dfe13f8c10187991035c264ef7ed',
+551 verbose unpublish   tarball: 'http://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2pre.tgz' }
+552 verbose url raw auto-grunt/-rev/11-0da0572ad7946b8710d2c474f14647bf
+553 verbose url resolving [ 'https://registry.npmjs.org/',
+553 verbose url resolving   './auto-grunt/-rev/11-0da0572ad7946b8710d2c474f14647bf' ]
+554 verbose url resolved https://registry.npmjs.org/auto-grunt/-rev/11-0da0572ad7946b8710d2c474f14647bf
+555 info retry registry request attempt 1 at 19:12:48
+556 http PUT https://registry.npmjs.org/auto-grunt/-rev/11-0da0572ad7946b8710d2c474f14647bf
+557 http 201 https://registry.npmjs.org/auto-grunt/-rev/11-0da0572ad7946b8710d2c474f14647bf
+558 verbose url raw auto-grunt
+559 verbose url resolving [ 'https://registry.npmjs.org/', './auto-grunt' ]
+560 verbose url resolved https://registry.npmjs.org/auto-grunt
+561 info retry registry request attempt 1 at 19:12:53
+562 http GET https://registry.npmjs.org/auto-grunt
+563 http 200 https://registry.npmjs.org/auto-grunt
+564 silly registry.get cb [ 200,
+564 silly registry.get   { vary: 'Accept',
+564 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+564 silly registry.get     etag: '"5EA4ACM455B358ILX48UJNYK7"',
+564 silly registry.get     date: 'Wed, 22 Aug 2012 11:12:56 GMT',
+564 silly registry.get     'content-type': 'application/json',
+564 silly registry.get     'content-length': '26818' } ]
+565 info detach /auto-grunt/-/auto-grunt-0.0.2pre.tgz/-rev/12-b142013c5ddaf40d5c2b999e46b510ab
+566 verbose url raw /auto-grunt/-/auto-grunt-0.0.2pre.tgz/-rev/12-b142013c5ddaf40d5c2b999e46b510ab
+567 verbose url resolving [ 'https://registry.npmjs.org/',
+567 verbose url resolving   './auto-grunt/-/auto-grunt-0.0.2pre.tgz/-rev/12-b142013c5ddaf40d5c2b999e46b510ab' ]
+568 verbose url resolved https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2pre.tgz/-rev/12-b142013c5ddaf40d5c2b999e46b510ab
+569 info retry registry request attempt 1 at 19:12:58
+570 http DELETE https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2pre.tgz/-rev/12-b142013c5ddaf40d5c2b999e46b510ab
+571 http 200 https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2pre.tgz/-rev/12-b142013c5ddaf40d5c2b999e46b510ab
+572 verbose publish [ 'auto-grunt' ]
+573 verbose read json C:\Documents and Settings\mozhuoying\Application Data\npm\node_modules\git\auto-grunt\tasks\auto-grunt\package.json
+574 verbose cache add [ 'auto-grunt', null ]
+575 silly cache add name=undefined spec="auto-grunt" args=["auto-grunt",null]
+576 verbose parsed url { pathname: 'auto-grunt',
+576 verbose parsed url   path: 'auto-grunt',
+576 verbose parsed url   href: 'auto-grunt' }
+577 verbose lock auto-grunt C:\Documents and Settings\mozhuoying\Application Data\npm-cache\cdbb1398497b09af2621cea7d7fda9a501c47419-auto-grunt.lock
+578 verbose addNamed [ 'auto-grunt', '' ]
+579 verbose addNamed [ null, '' ]
+580 verbose lock auto-grunt@ C:\Documents and Settings\mozhuoying\Application Data\npm-cache\f032e972155ea20292b6d8ec1a6e620912a152f5-auto-grunt-.lock
+581 silly addNameRange { name: 'auto-grunt', range: '', hasData: false }
+582 verbose url raw auto-grunt
+583 verbose url resolving [ 'https://registry.npmjs.org/', './auto-grunt' ]
+584 verbose url resolved https://registry.npmjs.org/auto-grunt
+585 info retry registry request attempt 1 at 19:13:02
+586 http GET https://registry.npmjs.org/auto-grunt
+587 http 200 https://registry.npmjs.org/auto-grunt
+588 silly registry.get cb [ 200,
+588 silly registry.get   { vary: 'Accept',
+588 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+588 silly registry.get     etag: '"5DKHX7UXDMMI8B9KIFYMKSKKT"',
+588 silly registry.get     date: 'Wed, 22 Aug 2012 11:13:05 GMT',
+588 silly registry.get     'content-type': 'application/json',
+588 silly registry.get     'content-length': '26818' } ]
+589 silly addNameRange number 2 { name: 'auto-grunt', range: '', hasData: true }
+590 silly addNameRange versions [ 'auto-grunt', [ '0.0.1', '0.0.2' ] ]
+591 verbose addNamed [ 'auto-grunt', '0.0.2' ]
+592 verbose addNamed [ '0.0.2', '0.0.2' ]
+593 verbose lock auto-grunt@0.0.2 C:\Documents and Settings\mozhuoying\Application Data\npm-cache\7b22f345ac4eba5abe17d0ca4e94eccbb364a6aa-auto-grunt-0-0-2.lock
+594 verbose lock https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2.tgz C:\Documents and Settings\mozhuoying\Application Data\npm-cache\25113886f68eb5b4ae7fc0f2da405cd15534ebd5-https-registry-npmjs-org-auto-grunt-auto-grunt-0-0-2-tgz.lock
+595 verbose addRemoteTarball [ 'https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2.tgz',
+595 verbose addRemoteTarball   '3814dee5c5766cf73749058ca9bbf9c742fb11c5' ]
+596 info retry fetch attempt 1 at 19:13:07
+597 verbose fetch to= C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633987333-0.12615664582699537\tmp.tgz
+598 http GET https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2.tgz
+599 http 200 https://registry.npmjs.org/auto-grunt/-/auto-grunt-0.0.2.tgz
+600 silly shasum updated bytes 40960
+601 silly shasum updated bytes 40960
+602 silly shasum updated bytes 40960
+603 silly shasum updated bytes 40960
+604 silly shasum updated bytes 40960
+605 silly shasum updated bytes 4405
+606 info shasum 3814dee5c5766cf73749058ca9bbf9c742fb11c5
+606 info shasum C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633987333-0.12615664582699537\tmp.tgz
+607 verbose tar unpack C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633987333-0.12615664582699537\tmp.tgz
+608 silly gunzTarPerm modes [ '755', '644' ]
+609 silly gunzTarPerm extractEntry package.json
+610 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+611 silly gunzTarPerm extractEntry .npmignore
+612 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+613 silly gunzTarPerm extractEntry README.md
+614 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+615 silly gunzTarPerm extractEntry grunt.js
+616 silly gunzTarPerm modified mode [ 'grunt.js', 438, 420 ]
+617 silly gunzTarPerm extractEntry test/fixtures/a.js
+618 silly gunzTarPerm modified mode [ 'test/fixtures/a.js', 438, 420 ]
+619 silly gunzTarPerm extractEntry test/fixtures/b.js
+620 silly gunzTarPerm modified mode [ 'test/fixtures/b.js', 438, 420 ]
+621 silly gunzTarPerm extractEntry test/fixtures/banner.js
+622 silly gunzTarPerm modified mode [ 'test/fixtures/banner.js', 438, 420 ]
+623 silly gunzTarPerm extractEntry test/fixtures/banner2.js
+624 silly gunzTarPerm modified mode [ 'test/fixtures/banner2.js', 438, 420 ]
+625 silly gunzTarPerm extractEntry test/fixtures/banner3.js
+626 silly gunzTarPerm modified mode [ 'test/fixtures/banner3.js', 438, 420 ]
+627 silly gunzTarPerm extractEntry test/fixtures/octocat.png
+628 silly gunzTarPerm modified mode [ 'test/fixtures/octocat.png', 438, 420 ]
+629 silly gunzTarPerm extractEntry test/fixtures/template.txt
+630 silly gunzTarPerm modified mode [ 'test/fixtures/template.txt', 438, 420 ]
+631 silly gunzTarPerm extractEntry test/fixtures/test.json
+632 silly gunzTarPerm modified mode [ 'test/fixtures/test.json', 438, 420 ]
+633 silly gunzTarPerm extractEntry test/grunt/file_test.js
+634 silly gunzTarPerm modified mode [ 'test/grunt/file_test.js', 438, 420 ]
+635 silly gunzTarPerm extractEntry test/grunt/template_test.js
+636 silly gunzTarPerm modified mode [ 'test/grunt/template_test.js', 438, 420 ]
+637 silly gunzTarPerm extractEntry test/grunt/utils_test.js
+638 silly gunzTarPerm modified mode [ 'test/grunt/utils_test.js', 438, 420 ]
+639 silly gunzTarPerm extractEntry test/tasks/concat_test.js
+640 silly gunzTarPerm modified mode [ 'test/tasks/concat_test.js', 438, 420 ]
+641 silly gunzTarPerm extractEntry test/tasks/init_test.js
+642 silly gunzTarPerm modified mode [ 'test/tasks/init_test.js', 438, 420 ]
+643 silly gunzTarPerm extractEntry test/tasks/misc_test.js
+644 silly gunzTarPerm modified mode [ 'test/tasks/misc_test.js', 438, 420 ]
+645 silly gunzTarPerm extractEntry test/util/namespace_test.js
+646 silly gunzTarPerm modified mode [ 'test/util/namespace_test.js', 438, 420 ]
+647 silly gunzTarPerm extractEntry test/util/task_test.js
+648 silly gunzTarPerm modified mode [ 'test/util/task_test.js', 438, 420 ]
+649 silly gunzTarPerm extractEntry bin/auto-grunt
+650 silly gunzTarPerm modified mode [ 'bin/auto-grunt', 438, 420 ]
+651 silly gunzTarPerm extractEntry LICENSE-MIT
+652 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+653 silly gunzTarPerm extractEntry dev/init.exp
+654 silly gunzTarPerm modified mode [ 'dev/init.exp', 438, 420 ]
+655 silly gunzTarPerm extractEntry docs/README.md
+656 silly gunzTarPerm modified mode [ 'docs/README.md', 438, 420 ]
+657 silly gunzTarPerm extractEntry docs/getting_started.md
+658 silly gunzTarPerm modified mode [ 'docs/getting_started.md', 438, 420 ]
+659 silly gunzTarPerm extractEntry docs/api_fail.md
+660 silly gunzTarPerm modified mode [ 'docs/api_fail.md', 438, 420 ]
+661 silly gunzTarPerm extractEntry docs/api_file.md
+662 silly gunzTarPerm modified mode [ 'docs/api_file.md', 438, 420 ]
+663 silly gunzTarPerm extractEntry docs/api_log.md
+664 silly gunzTarPerm modified mode [ 'docs/api_log.md', 438, 420 ]
+665 silly gunzTarPerm extractEntry docs/api_task.md
+666 silly gunzTarPerm modified mode [ 'docs/api_task.md', 438, 420 ]
+667 silly gunzTarPerm extractEntry docs/api_template.md
+668 silly gunzTarPerm modified mode [ 'docs/api_template.md', 438, 420 ]
+669 silly gunzTarPerm extractEntry docs/api_utils.md
+670 silly gunzTarPerm modified mode [ 'docs/api_utils.md', 438, 420 ]
+671 silly gunzTarPerm extractEntry docs/contributing.md
+672 silly gunzTarPerm modified mode [ 'docs/contributing.md', 438, 420 ]
+673 silly gunzTarPerm extractEntry docs/example_gruntfiles.md
+674 silly gunzTarPerm modified mode [ 'docs/example_gruntfiles.md', 438, 420 ]
+675 silly gunzTarPerm extractEntry docs/exit_codes.md
+676 silly gunzTarPerm modified mode [ 'docs/exit_codes.md', 438, 420 ]
+677 silly gunzTarPerm extractEntry docs/faq.md
+678 silly gunzTarPerm modified mode [ 'docs/faq.md', 438, 420 ]
+679 silly gunzTarPerm extractEntry docs/api_config.md
+680 silly gunzTarPerm modified mode [ 'docs/api_config.md', 438, 420 ]
+681 silly gunzTarPerm extractEntry docs/helpers_directives.md
+682 silly gunzTarPerm modified mode [ 'docs/helpers_directives.md', 438, 420 ]
+683 silly gunzTarPerm extractEntry docs/plugins.md
+684 silly gunzTarPerm modified mode [ 'docs/plugins.md', 438, 420 ]
+685 silly gunzTarPerm extractEntry docs/api.md
+686 silly gunzTarPerm modified mode [ 'docs/api.md', 438, 420 ]
+687 silly gunzTarPerm extractEntry docs/task_concat.md
+688 silly gunzTarPerm modified mode [ 'docs/task_concat.md', 438, 420 ]
+689 silly gunzTarPerm extractEntry docs/task_init.md
+690 silly gunzTarPerm modified mode [ 'docs/task_init.md', 438, 420 ]
+691 silly gunzTarPerm extractEntry docs/task_lint.md
+692 silly gunzTarPerm modified mode [ 'docs/task_lint.md', 438, 420 ]
+693 silly gunzTarPerm extractEntry docs/task_min.md
+694 silly gunzTarPerm modified mode [ 'docs/task_min.md', 438, 420 ]
+695 silly gunzTarPerm extractEntry docs/task_qunit.md
+696 silly gunzTarPerm modified mode [ 'docs/task_qunit.md', 438, 420 ]
+697 silly gunzTarPerm extractEntry docs/task_server.md
+698 silly gunzTarPerm modified mode [ 'docs/task_server.md', 438, 420 ]
+699 silly gunzTarPerm extractEntry docs/toc.md
+700 silly gunzTarPerm modified mode [ 'docs/toc.md', 438, 420 ]
+701 silly gunzTarPerm extractEntry docs/types_of_tasks.md
+702 silly gunzTarPerm modified mode [ 'docs/types_of_tasks.md', 438, 420 ]
+703 silly gunzTarPerm extractEntry tasks/concat.js
+704 silly gunzTarPerm modified mode [ 'tasks/concat.js', 438, 420 ]
+705 silly gunzTarPerm extractEntry tasks/lint.js
+706 silly gunzTarPerm modified mode [ 'tasks/lint.js', 438, 420 ]
+707 silly gunzTarPerm extractEntry tasks/min.js
+708 silly gunzTarPerm modified mode [ 'tasks/min.js', 438, 420 ]
+709 silly gunzTarPerm extractEntry tasks/mincss.js
+710 silly gunzTarPerm modified mode [ 'tasks/mincss.js', 438, 420 ]
+711 silly gunzTarPerm extractEntry tasks/init.js
+712 silly gunzTarPerm modified mode [ 'tasks/init.js', 438, 420 ]
+713 silly gunzTarPerm extractEntry tasks/watch.js
+714 silly gunzTarPerm modified mode [ 'tasks/watch.js', 438, 420 ]
+715 silly gunzTarPerm extractEntry tasks/test.js
+716 silly gunzTarPerm modified mode [ 'tasks/test.js', 438, 420 ]
+717 silly gunzTarPerm extractEntry tasks/qunit.js
+718 silly gunzTarPerm modified mode [ 'tasks/qunit.js', 438, 420 ]
+719 silly gunzTarPerm extractEntry tasks/server.js
+720 silly gunzTarPerm modified mode [ 'tasks/server.js', 438, 420 ]
+721 silly gunzTarPerm extractEntry tasks/sprite.js
+722 silly gunzTarPerm modified mode [ 'tasks/sprite.js', 438, 420 ]
+723 silly gunzTarPerm extractEntry tasks/minjs.js
+724 silly gunzTarPerm modified mode [ 'tasks/minjs.js', 438, 420 ]
+725 silly gunzTarPerm extractEntry tasks/watchsmarty.js
+726 silly gunzTarPerm modified mode [ 'tasks/watchsmarty.js', 438, 420 ]
+727 silly gunzTarPerm extractEntry tasks/misc.js
+728 silly gunzTarPerm modified mode [ 'tasks/misc.js', 438, 420 ]
+729 silly gunzTarPerm extractEntry tasks/qunit/phantom.js
+730 silly gunzTarPerm modified mode [ 'tasks/qunit/phantom.js', 438, 420 ]
+731 silly gunzTarPerm extractEntry tasks/qunit/qunit.js
+732 silly gunzTarPerm modified mode [ 'tasks/qunit/qunit.js', 438, 420 ]
+733 silly gunzTarPerm extractEntry tasks/qunit/phantom.json
+734 silly gunzTarPerm modified mode [ 'tasks/qunit/phantom.json', 438, 420 ]
+735 silly gunzTarPerm extractEntry tasks/init/node.js
+736 silly gunzTarPerm modified mode [ 'tasks/init/node.js', 438, 420 ]
+737 silly gunzTarPerm extractEntry tasks/init/gruntfile.js
+738 silly gunzTarPerm modified mode [ 'tasks/init/gruntfile.js', 438, 420 ]
+739 silly gunzTarPerm extractEntry tasks/init/gruntplugin.js
+740 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin.js', 438, 420 ]
+741 silly gunzTarPerm extractEntry tasks/init/commonjs.js
+742 silly gunzTarPerm modified mode [ 'tasks/init/commonjs.js', 438, 420 ]
+743 silly gunzTarPerm extractEntry tasks/init/jquery.js
+744 silly gunzTarPerm modified mode [ 'tasks/init/jquery.js', 438, 420 ]
+745 silly gunzTarPerm extractEntry tasks/init/gruntfile/root/grunt.js
+746 silly gunzTarPerm modified mode [ 'tasks/init/gruntfile/root/grunt.js', 438, 420 ]
+747 silly gunzTarPerm extractEntry tasks/init/commonjs/rename.json
+748 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/rename.json', 438, 420 ]
+749 silly gunzTarPerm extractEntry tasks/init/commonjs/root/.npmignore
+750 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/.npmignore', 438, 420 ]
+751 silly gunzTarPerm extractEntry tasks/init/commonjs/root/README.md
+752 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/README.md', 438, 420 ]
+753 silly gunzTarPerm extractEntry tasks/init/commonjs/root/grunt.js
+754 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/grunt.js', 438, 420 ]
+755 silly gunzTarPerm extractEntry tasks/init/commonjs/root/lib/name.js
+756 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/lib/name.js', 438, 420 ]
+757 silly gunzTarPerm extractEntry tasks/init/commonjs/root/test/name_test.js
+758 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/test/name_test.js', 438, 420 ]
+759 silly gunzTarPerm extractEntry tasks/init/gruntplugin/rename.json
+760 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/rename.json', 438, 420 ]
+761 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/.npmignore
+762 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/.npmignore', 438, 420 ]
+763 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/README.md
+764 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/README.md', 438, 420 ]
+765 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/grunt.js
+766 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/grunt.js', 438, 420 ]
+767 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/bin/name
+768 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/bin/name', 438, 420 ]
+769 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/tasks/name.js
+770 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/tasks/name.js', 438, 420 ]
+771 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/test/name_test.js
+772 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/test/name_test.js', 438, 420 ]
+773 silly gunzTarPerm extractEntry tasks/init/licenses/LICENSE-GPL
+774 silly gunzTarPerm modified mode [ 'tasks/init/licenses/LICENSE-GPL', 438, 420 ]
+775 silly gunzTarPerm extractEntry tasks/init/licenses/LICENSE-MIT
+776 silly gunzTarPerm modified mode [ 'tasks/init/licenses/LICENSE-MIT', 438, 420 ]
+777 silly gunzTarPerm extractEntry tasks/init/misc/placeholder
+778 silly gunzTarPerm modified mode [ 'tasks/init/misc/placeholder', 438, 420 ]
+779 silly gunzTarPerm extractEntry tasks/init/node/rename.json
+780 silly gunzTarPerm modified mode [ 'tasks/init/node/rename.json', 438, 420 ]
+781 silly gunzTarPerm extractEntry tasks/init/node/root/.npmignore
+782 silly gunzTarPerm modified mode [ 'tasks/init/node/root/.npmignore', 438, 420 ]
+783 silly gunzTarPerm extractEntry tasks/init/node/root/README.md
+784 silly gunzTarPerm modified mode [ 'tasks/init/node/root/README.md', 438, 420 ]
+785 silly gunzTarPerm extractEntry tasks/init/node/root/grunt.js
+786 silly gunzTarPerm modified mode [ 'tasks/init/node/root/grunt.js', 438, 420 ]
+787 silly gunzTarPerm extractEntry tasks/init/node/root/lib/name.js
+788 silly gunzTarPerm modified mode [ 'tasks/init/node/root/lib/name.js', 438, 420 ]
+789 silly gunzTarPerm extractEntry tasks/init/node/root/test/name_test.js
+790 silly gunzTarPerm modified mode [ 'tasks/init/node/root/test/name_test.js', 438, 420 ]
+791 silly gunzTarPerm extractEntry tasks/init/jquery/rename.json
+792 silly gunzTarPerm modified mode [ 'tasks/init/jquery/rename.json', 438, 420 ]
+793 silly gunzTarPerm extractEntry tasks/init/jquery/root/README.md
+794 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/README.md', 438, 420 ]
+795 silly gunzTarPerm extractEntry tasks/init/jquery/root/grunt.js
+796 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/grunt.js', 438, 420 ]
+797 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/jquery-loader.js
+798 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/jquery-loader.js', 438, 420 ]
+799 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/jquery/jquery.js
+800 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/jquery/jquery.js', 438, 420 ]
+801 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/qunit/qunit.js
+802 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/qunit/qunit.js', 438, 420 ]
+803 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/qunit/qunit.css
+804 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/qunit/qunit.css', 438, 420 ]
+805 silly gunzTarPerm extractEntry tasks/init/jquery/root/src/name.js
+806 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/src/name.js', 438, 420 ]
+807 silly gunzTarPerm extractEntry tasks/init/jquery/root/test/name_test.js
+808 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/test/name_test.js', 438, 420 ]
+809 silly gunzTarPerm extractEntry tasks/init/jquery/root/test/name.html
+810 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/test/name.html', 438, 420 ]
+811 silly gunzTarPerm extractEntry lib/grunt.js
+812 silly gunzTarPerm modified mode [ 'lib/grunt.js', 438, 420 ]
+813 silly gunzTarPerm extractEntry lib/grunt/cli.js
+814 silly gunzTarPerm modified mode [ 'lib/grunt/cli.js', 438, 420 ]
+815 silly gunzTarPerm extractEntry lib/grunt/fail.js
+816 silly gunzTarPerm modified mode [ 'lib/grunt/fail.js', 438, 420 ]
+817 silly gunzTarPerm extractEntry lib/grunt/file.js
+818 silly gunzTarPerm modified mode [ 'lib/grunt/file.js', 438, 420 ]
+819 silly gunzTarPerm extractEntry lib/grunt/help.js
+820 silly gunzTarPerm modified mode [ 'lib/grunt/help.js', 438, 420 ]
+821 silly gunzTarPerm extractEntry lib/grunt/config.js
+822 silly gunzTarPerm modified mode [ 'lib/grunt/config.js', 438, 420 ]
+823 silly gunzTarPerm extractEntry lib/grunt/option.js
+824 silly gunzTarPerm modified mode [ 'lib/grunt/option.js', 438, 420 ]
+825 silly gunzTarPerm extractEntry lib/grunt/sprite.js
+826 silly gunzTarPerm modified mode [ 'lib/grunt/sprite.js', 438, 420 ]
+827 silly gunzTarPerm extractEntry lib/grunt/task.js
+828 silly gunzTarPerm modified mode [ 'lib/grunt/task.js', 438, 420 ]
+829 silly gunzTarPerm extractEntry lib/grunt/template.js
+830 silly gunzTarPerm modified mode [ 'lib/grunt/template.js', 438, 420 ]
+831 silly gunzTarPerm extractEntry lib/grunt/utils.js
+832 silly gunzTarPerm modified mode [ 'lib/grunt/utils.js', 438, 420 ]
+833 silly gunzTarPerm extractEntry lib/grunt/log.js
+834 silly gunzTarPerm modified mode [ 'lib/grunt/log.js', 438, 420 ]
+835 silly gunzTarPerm extractEntry lib/util/findup.js
+836 silly gunzTarPerm modified mode [ 'lib/util/findup.js', 438, 420 ]
+837 silly gunzTarPerm extractEntry lib/util/namespace.js
+838 silly gunzTarPerm modified mode [ 'lib/util/namespace.js', 438, 420 ]
+839 silly gunzTarPerm extractEntry lib/util/task.js
+840 silly gunzTarPerm modified mode [ 'lib/util/task.js', 438, 420 ]
+841 verbose read json C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633987333-0.12615664582699537\package\package.json
+842 verbose from cache C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633987333-0.12615664582699537\package\package.json
+843 verbose tar pack [ 'C:\\Documents and Settings\\mozhuoying\\Application Data\\npm-cache\\auto-grunt\\0.0.2\\package.tgz',
+843 verbose tar pack   'C:\\DOCUME~1\\MOZHUO~1\\LOCALS~1\\Temp\\npm-8836\\1345633987333-0.12615664582699537\\package' ]
+844 verbose tarball C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2\package.tgz
+845 verbose folder C:\DOCUME~1\MOZHUO~1\LOCALS~1\Temp\npm-8836\1345633987333-0.12615664582699537\package
+846 verbose tar unpack C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2\package.tgz
+847 silly gunzTarPerm modes [ '755', '644' ]
+848 silly gunzTarPerm extractEntry package.json
+849 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+850 silly gunzTarPerm extractEntry .npmignore
+851 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+852 silly gunzTarPerm extractEntry README.md
+853 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+854 silly gunzTarPerm extractEntry grunt.js
+855 silly gunzTarPerm modified mode [ 'grunt.js', 438, 420 ]
+856 silly gunzTarPerm extractEntry test/fixtures/a.js
+857 silly gunzTarPerm modified mode [ 'test/fixtures/a.js', 438, 420 ]
+858 silly gunzTarPerm extractEntry test/fixtures/b.js
+859 silly gunzTarPerm modified mode [ 'test/fixtures/b.js', 438, 420 ]
+860 silly gunzTarPerm extractEntry test/fixtures/banner.js
+861 silly gunzTarPerm modified mode [ 'test/fixtures/banner.js', 438, 420 ]
+862 silly gunzTarPerm extractEntry test/fixtures/banner2.js
+863 silly gunzTarPerm modified mode [ 'test/fixtures/banner2.js', 438, 420 ]
+864 silly gunzTarPerm extractEntry test/fixtures/banner3.js
+865 silly gunzTarPerm modified mode [ 'test/fixtures/banner3.js', 438, 420 ]
+866 silly gunzTarPerm extractEntry test/fixtures/octocat.png
+867 silly gunzTarPerm modified mode [ 'test/fixtures/octocat.png', 438, 420 ]
+868 silly gunzTarPerm extractEntry test/fixtures/template.txt
+869 silly gunzTarPerm modified mode [ 'test/fixtures/template.txt', 438, 420 ]
+870 silly gunzTarPerm extractEntry test/fixtures/test.json
+871 silly gunzTarPerm modified mode [ 'test/fixtures/test.json', 438, 420 ]
+872 silly gunzTarPerm extractEntry test/grunt/file_test.js
+873 silly gunzTarPerm modified mode [ 'test/grunt/file_test.js', 438, 420 ]
+874 silly gunzTarPerm extractEntry test/grunt/template_test.js
+875 silly gunzTarPerm modified mode [ 'test/grunt/template_test.js', 438, 420 ]
+876 silly gunzTarPerm extractEntry test/grunt/utils_test.js
+877 silly gunzTarPerm modified mode [ 'test/grunt/utils_test.js', 438, 420 ]
+878 silly gunzTarPerm extractEntry test/tasks/concat_test.js
+879 silly gunzTarPerm modified mode [ 'test/tasks/concat_test.js', 438, 420 ]
+880 silly gunzTarPerm extractEntry test/tasks/init_test.js
+881 silly gunzTarPerm modified mode [ 'test/tasks/init_test.js', 438, 420 ]
+882 silly gunzTarPerm extractEntry test/tasks/misc_test.js
+883 silly gunzTarPerm modified mode [ 'test/tasks/misc_test.js', 438, 420 ]
+884 silly gunzTarPerm extractEntry test/util/namespace_test.js
+885 silly gunzTarPerm modified mode [ 'test/util/namespace_test.js', 438, 420 ]
+886 silly gunzTarPerm extractEntry test/util/task_test.js
+887 silly gunzTarPerm modified mode [ 'test/util/task_test.js', 438, 420 ]
+888 silly gunzTarPerm extractEntry bin/auto-grunt
+889 silly gunzTarPerm modified mode [ 'bin/auto-grunt', 438, 420 ]
+890 silly gunzTarPerm extractEntry LICENSE-MIT
+891 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+892 silly gunzTarPerm extractEntry dev/init.exp
+893 silly gunzTarPerm modified mode [ 'dev/init.exp', 438, 420 ]
+894 silly gunzTarPerm extractEntry docs/README.md
+895 silly gunzTarPerm modified mode [ 'docs/README.md', 438, 420 ]
+896 silly gunzTarPerm extractEntry docs/getting_started.md
+897 silly gunzTarPerm modified mode [ 'docs/getting_started.md', 438, 420 ]
+898 silly gunzTarPerm extractEntry docs/api_fail.md
+899 silly gunzTarPerm modified mode [ 'docs/api_fail.md', 438, 420 ]
+900 silly gunzTarPerm extractEntry docs/api_file.md
+901 silly gunzTarPerm modified mode [ 'docs/api_file.md', 438, 420 ]
+902 silly gunzTarPerm extractEntry docs/api_log.md
+903 silly gunzTarPerm modified mode [ 'docs/api_log.md', 438, 420 ]
+904 silly gunzTarPerm extractEntry docs/api_task.md
+905 silly gunzTarPerm modified mode [ 'docs/api_task.md', 438, 420 ]
+906 silly gunzTarPerm extractEntry docs/api_template.md
+907 silly gunzTarPerm modified mode [ 'docs/api_template.md', 438, 420 ]
+908 silly gunzTarPerm extractEntry docs/api_utils.md
+909 silly gunzTarPerm modified mode [ 'docs/api_utils.md', 438, 420 ]
+910 silly gunzTarPerm extractEntry docs/contributing.md
+911 silly gunzTarPerm modified mode [ 'docs/contributing.md', 438, 420 ]
+912 silly gunzTarPerm extractEntry docs/example_gruntfiles.md
+913 silly gunzTarPerm modified mode [ 'docs/example_gruntfiles.md', 438, 420 ]
+914 silly gunzTarPerm extractEntry docs/exit_codes.md
+915 silly gunzTarPerm modified mode [ 'docs/exit_codes.md', 438, 420 ]
+916 silly gunzTarPerm extractEntry docs/faq.md
+917 silly gunzTarPerm modified mode [ 'docs/faq.md', 438, 420 ]
+918 silly gunzTarPerm extractEntry docs/api_config.md
+919 silly gunzTarPerm modified mode [ 'docs/api_config.md', 438, 420 ]
+920 silly gunzTarPerm extractEntry docs/helpers_directives.md
+921 silly gunzTarPerm modified mode [ 'docs/helpers_directives.md', 438, 420 ]
+922 silly gunzTarPerm extractEntry docs/plugins.md
+923 silly gunzTarPerm modified mode [ 'docs/plugins.md', 438, 420 ]
+924 silly gunzTarPerm extractEntry docs/api.md
+925 silly gunzTarPerm modified mode [ 'docs/api.md', 438, 420 ]
+926 silly gunzTarPerm extractEntry docs/task_concat.md
+927 silly gunzTarPerm modified mode [ 'docs/task_concat.md', 438, 420 ]
+928 silly gunzTarPerm extractEntry docs/task_init.md
+929 silly gunzTarPerm modified mode [ 'docs/task_init.md', 438, 420 ]
+930 silly gunzTarPerm extractEntry docs/task_lint.md
+931 silly gunzTarPerm modified mode [ 'docs/task_lint.md', 438, 420 ]
+932 silly gunzTarPerm extractEntry docs/task_min.md
+933 silly gunzTarPerm modified mode [ 'docs/task_min.md', 438, 420 ]
+934 silly gunzTarPerm extractEntry docs/task_qunit.md
+935 silly gunzTarPerm modified mode [ 'docs/task_qunit.md', 438, 420 ]
+936 silly gunzTarPerm extractEntry docs/task_server.md
+937 silly gunzTarPerm modified mode [ 'docs/task_server.md', 438, 420 ]
+938 silly gunzTarPerm extractEntry docs/toc.md
+939 silly gunzTarPerm modified mode [ 'docs/toc.md', 438, 420 ]
+940 silly gunzTarPerm extractEntry docs/types_of_tasks.md
+941 silly gunzTarPerm modified mode [ 'docs/types_of_tasks.md', 438, 420 ]
+942 silly gunzTarPerm extractEntry tasks/concat.js
+943 silly gunzTarPerm modified mode [ 'tasks/concat.js', 438, 420 ]
+944 silly gunzTarPerm extractEntry tasks/lint.js
+945 silly gunzTarPerm modified mode [ 'tasks/lint.js', 438, 420 ]
+946 silly gunzTarPerm extractEntry tasks/min.js
+947 silly gunzTarPerm modified mode [ 'tasks/min.js', 438, 420 ]
+948 silly gunzTarPerm extractEntry tasks/mincss.js
+949 silly gunzTarPerm modified mode [ 'tasks/mincss.js', 438, 420 ]
+950 silly gunzTarPerm extractEntry tasks/init.js
+951 silly gunzTarPerm modified mode [ 'tasks/init.js', 438, 420 ]
+952 silly gunzTarPerm extractEntry tasks/watch.js
+953 silly gunzTarPerm modified mode [ 'tasks/watch.js', 438, 420 ]
+954 silly gunzTarPerm extractEntry tasks/test.js
+955 silly gunzTarPerm modified mode [ 'tasks/test.js', 438, 420 ]
+956 silly gunzTarPerm extractEntry tasks/qunit.js
+957 silly gunzTarPerm modified mode [ 'tasks/qunit.js', 438, 420 ]
+958 silly gunzTarPerm extractEntry tasks/server.js
+959 silly gunzTarPerm modified mode [ 'tasks/server.js', 438, 420 ]
+960 silly gunzTarPerm extractEntry tasks/sprite.js
+961 silly gunzTarPerm modified mode [ 'tasks/sprite.js', 438, 420 ]
+962 silly gunzTarPerm extractEntry tasks/minjs.js
+963 silly gunzTarPerm modified mode [ 'tasks/minjs.js', 438, 420 ]
+964 silly gunzTarPerm extractEntry tasks/watchsmarty.js
+965 silly gunzTarPerm modified mode [ 'tasks/watchsmarty.js', 438, 420 ]
+966 silly gunzTarPerm extractEntry tasks/misc.js
+967 silly gunzTarPerm modified mode [ 'tasks/misc.js', 438, 420 ]
+968 silly gunzTarPerm extractEntry tasks/qunit/phantom.js
+969 silly gunzTarPerm modified mode [ 'tasks/qunit/phantom.js', 438, 420 ]
+970 silly gunzTarPerm extractEntry tasks/qunit/qunit.js
+971 silly gunzTarPerm modified mode [ 'tasks/qunit/qunit.js', 438, 420 ]
+972 silly gunzTarPerm extractEntry tasks/qunit/phantom.json
+973 silly gunzTarPerm modified mode [ 'tasks/qunit/phantom.json', 438, 420 ]
+974 silly gunzTarPerm extractEntry tasks/init/node.js
+975 silly gunzTarPerm modified mode [ 'tasks/init/node.js', 438, 420 ]
+976 silly gunzTarPerm extractEntry tasks/init/gruntfile.js
+977 silly gunzTarPerm modified mode [ 'tasks/init/gruntfile.js', 438, 420 ]
+978 silly gunzTarPerm extractEntry tasks/init/gruntplugin.js
+979 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin.js', 438, 420 ]
+980 silly gunzTarPerm extractEntry tasks/init/commonjs.js
+981 silly gunzTarPerm modified mode [ 'tasks/init/commonjs.js', 438, 420 ]
+982 silly gunzTarPerm extractEntry tasks/init/jquery.js
+983 silly gunzTarPerm modified mode [ 'tasks/init/jquery.js', 438, 420 ]
+984 silly gunzTarPerm extractEntry tasks/init/gruntfile/root/grunt.js
+985 silly gunzTarPerm modified mode [ 'tasks/init/gruntfile/root/grunt.js', 438, 420 ]
+986 silly gunzTarPerm extractEntry tasks/init/commonjs/rename.json
+987 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/rename.json', 438, 420 ]
+988 silly gunzTarPerm extractEntry tasks/init/commonjs/root/.npmignore
+989 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/.npmignore', 438, 420 ]
+990 silly gunzTarPerm extractEntry tasks/init/commonjs/root/README.md
+991 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/README.md', 438, 420 ]
+992 silly gunzTarPerm extractEntry tasks/init/commonjs/root/grunt.js
+993 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/grunt.js', 438, 420 ]
+994 silly gunzTarPerm extractEntry tasks/init/commonjs/root/lib/name.js
+995 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/lib/name.js', 438, 420 ]
+996 silly gunzTarPerm extractEntry tasks/init/commonjs/root/test/name_test.js
+997 silly gunzTarPerm modified mode [ 'tasks/init/commonjs/root/test/name_test.js', 438, 420 ]
+998 silly gunzTarPerm extractEntry tasks/init/gruntplugin/rename.json
+999 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/rename.json', 438, 420 ]
+1000 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/.npmignore
+1001 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/.npmignore', 438, 420 ]
+1002 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/README.md
+1003 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/README.md', 438, 420 ]
+1004 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/grunt.js
+1005 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/grunt.js', 438, 420 ]
+1006 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/bin/name
+1007 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/bin/name', 438, 420 ]
+1008 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/tasks/name.js
+1009 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/tasks/name.js', 438, 420 ]
+1010 silly gunzTarPerm extractEntry tasks/init/gruntplugin/root/test/name_test.js
+1011 silly gunzTarPerm modified mode [ 'tasks/init/gruntplugin/root/test/name_test.js', 438, 420 ]
+1012 silly gunzTarPerm extractEntry tasks/init/licenses/LICENSE-GPL
+1013 silly gunzTarPerm modified mode [ 'tasks/init/licenses/LICENSE-GPL', 438, 420 ]
+1014 silly gunzTarPerm extractEntry tasks/init/licenses/LICENSE-MIT
+1015 silly gunzTarPerm modified mode [ 'tasks/init/licenses/LICENSE-MIT', 438, 420 ]
+1016 silly gunzTarPerm extractEntry tasks/init/misc/placeholder
+1017 silly gunzTarPerm modified mode [ 'tasks/init/misc/placeholder', 438, 420 ]
+1018 silly gunzTarPerm extractEntry tasks/init/node/rename.json
+1019 silly gunzTarPerm modified mode [ 'tasks/init/node/rename.json', 438, 420 ]
+1020 silly gunzTarPerm extractEntry tasks/init/node/root/.npmignore
+1021 silly gunzTarPerm modified mode [ 'tasks/init/node/root/.npmignore', 438, 420 ]
+1022 silly gunzTarPerm extractEntry tasks/init/node/root/README.md
+1023 silly gunzTarPerm modified mode [ 'tasks/init/node/root/README.md', 438, 420 ]
+1024 silly gunzTarPerm extractEntry tasks/init/node/root/grunt.js
+1025 silly gunzTarPerm modified mode [ 'tasks/init/node/root/grunt.js', 438, 420 ]
+1026 silly gunzTarPerm extractEntry tasks/init/node/root/lib/name.js
+1027 silly gunzTarPerm modified mode [ 'tasks/init/node/root/lib/name.js', 438, 420 ]
+1028 silly gunzTarPerm extractEntry tasks/init/node/root/test/name_test.js
+1029 silly gunzTarPerm modified mode [ 'tasks/init/node/root/test/name_test.js', 438, 420 ]
+1030 silly gunzTarPerm extractEntry tasks/init/jquery/rename.json
+1031 silly gunzTarPerm modified mode [ 'tasks/init/jquery/rename.json', 438, 420 ]
+1032 silly gunzTarPerm extractEntry tasks/init/jquery/root/README.md
+1033 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/README.md', 438, 420 ]
+1034 silly gunzTarPerm extractEntry tasks/init/jquery/root/grunt.js
+1035 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/grunt.js', 438, 420 ]
+1036 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/jquery-loader.js
+1037 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/jquery-loader.js', 438, 420 ]
+1038 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/jquery/jquery.js
+1039 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/jquery/jquery.js', 438, 420 ]
+1040 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/qunit/qunit.js
+1041 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/qunit/qunit.js', 438, 420 ]
+1042 silly gunzTarPerm extractEntry tasks/init/jquery/root/libs/qunit/qunit.css
+1043 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/libs/qunit/qunit.css', 438, 420 ]
+1044 silly gunzTarPerm extractEntry tasks/init/jquery/root/src/name.js
+1045 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/src/name.js', 438, 420 ]
+1046 silly gunzTarPerm extractEntry tasks/init/jquery/root/test/name_test.js
+1047 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/test/name_test.js', 438, 420 ]
+1048 silly gunzTarPerm extractEntry tasks/init/jquery/root/test/name.html
+1049 silly gunzTarPerm modified mode [ 'tasks/init/jquery/root/test/name.html', 438, 420 ]
+1050 silly gunzTarPerm extractEntry lib/grunt.js
+1051 silly gunzTarPerm modified mode [ 'lib/grunt.js', 438, 420 ]
+1052 silly gunzTarPerm extractEntry lib/grunt/cli.js
+1053 silly gunzTarPerm modified mode [ 'lib/grunt/cli.js', 438, 420 ]
+1054 silly gunzTarPerm extractEntry lib/grunt/fail.js
+1055 silly gunzTarPerm modified mode [ 'lib/grunt/fail.js', 438, 420 ]
+1056 silly gunzTarPerm extractEntry lib/grunt/file.js
+1057 silly gunzTarPerm modified mode [ 'lib/grunt/file.js', 438, 420 ]
+1058 silly gunzTarPerm extractEntry lib/grunt/help.js
+1059 silly gunzTarPerm modified mode [ 'lib/grunt/help.js', 438, 420 ]
+1060 silly gunzTarPerm extractEntry lib/grunt/config.js
+1061 silly gunzTarPerm modified mode [ 'lib/grunt/config.js', 438, 420 ]
+1062 silly gunzTarPerm extractEntry lib/grunt/option.js
+1063 silly gunzTarPerm modified mode [ 'lib/grunt/option.js', 438, 420 ]
+1064 silly gunzTarPerm extractEntry lib/grunt/sprite.js
+1065 silly gunzTarPerm modified mode [ 'lib/grunt/sprite.js', 438, 420 ]
+1066 silly gunzTarPerm extractEntry lib/grunt/task.js
+1067 silly gunzTarPerm modified mode [ 'lib/grunt/task.js', 438, 420 ]
+1068 silly gunzTarPerm extractEntry lib/grunt/template.js
+1069 silly gunzTarPerm modified mode [ 'lib/grunt/template.js', 438, 420 ]
+1070 silly gunzTarPerm extractEntry lib/grunt/utils.js
+1071 silly gunzTarPerm modified mode [ 'lib/grunt/utils.js', 438, 420 ]
+1072 silly gunzTarPerm extractEntry lib/grunt/log.js
+1073 silly gunzTarPerm modified mode [ 'lib/grunt/log.js', 438, 420 ]
+1074 silly gunzTarPerm extractEntry lib/util/findup.js
+1075 silly gunzTarPerm modified mode [ 'lib/util/findup.js', 438, 420 ]
+1076 silly gunzTarPerm extractEntry lib/util/namespace.js
+1077 silly gunzTarPerm modified mode [ 'lib/util/namespace.js', 438, 420 ]
+1078 silly gunzTarPerm extractEntry lib/util/task.js
+1079 silly gunzTarPerm modified mode [ 'lib/util/task.js', 438, 420 ]
+1080 verbose read json C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2\package\package.json
+1081 silly shasum updated bytes 40960
+1082 silly shasum updated bytes 40960
+1083 silly shasum updated bytes 40960
+1084 silly shasum updated bytes 40960
+1085 silly shasum updated bytes 40960
+1086 silly shasum updated bytes 4394
+1087 info shasum fd108287498456525734b95c450bb3108bb5ab60
+1087 info shasum C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2\package.tgz
+1088 verbose from cache C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2\package\package.json
+1089 verbose chmod C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2\package.tgz 644
+1090 silly chown skipping for windows C:\Documents and Settings\mozhuoying\Application Data\npm-cache\auto-grunt\0.0.2\package.tgz
+1091 silly publish { name: 'auto-grunt',
+1091 silly publish   description: 'A task-based command line build tool for JavaScript projects.',
+1091 silly publish   version: '0.0.2',
+1091 silly publish   author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+1091 silly publish   homepage: 'http://github.com/cowboy/grunt',
+1091 silly publish   repository: { type: 'git', url: 'git://github.com/cowboy/grunt.git' },
+1091 silly publish   bugs: { url: 'http://github.com/cowboy/grunt/issues' },
+1091 silly publish   licenses:
+1091 silly publish    [ { type: 'MIT',
+1091 silly publish        url: 'http://github.com/cowboy/grunt/blob/master/LICENSE-MIT' } ],
+1091 silly publish   main: 'lib/grunt',
+1091 silly publish   bin: { 'auto-grunt': 'bin/auto-grunt' },
+1091 silly publish   scripts: { test: 'grunt test' },
+1091 silly publish   engines: { node: '>= 0.6.0' },
+1091 silly publish   preferGlobal: true,
+1091 silly publish   keywords:
+1091 silly publish    [ 'async',
+1091 silly publish      'cli',
+1091 silly publish      'minify',
+1091 silly publish      'uglify',
+1091 silly publish      'build',
+1091 silly publish      'underscore',
+1091 silly publish      'unit',
+1091 silly publish      'test',
+1091 silly publish      'qunit',
+1091 silly publish      'nodeunit',
+1091 silly publish      'server',
+1091 silly publish      'init',
+1091 silly publish      'scaffold',
+1091 silly publish      'make',
+1091 silly publish      'jake',
+1091 silly publish      'tool' ],
+1091 silly publish   dependencies:
+1091 silly publish    { cssom: '~0.2.5',
+1091 silly publish      async: '~0.1.18',
+1091 silly publish      colors: '~0.6.0',
+1091 silly publish      connect: '~2.3.4',
+1091 silly publish      dateformat: '1.0.2-1.2.3',
+1091 silly publish      'iconv-lite': '~0.2.3',
+1091 silly publish      'glob-whatev': '~0.1.4',
+1091 silly publish      hooker: '~0.2.3',
+1091 silly publish      jshint: '~0.5.9',
+1091 silly publish      nodeunit: '~0.6.4',
+1091 silly publish      nopt: '~1.0.10',
+1091 silly publish      prompt: '~0.1.12',
+1091 silly publish      'clean-css': '~0.4.1',
+1091 silly publish      semver: '~1.0.13',
+1091 silly publish      'uglify-js': '~1.0.7',
+1091 silly publish      underscore: '~1.2.4',
+1091 silly publish      'underscore.string': '~2.1.1',
+1091 silly publish      temporary: '~0.0.4',
+1091 silly publish      'gzip-js': '~0.3.1' },
+1091 silly publish   devDependencies: {},
+1091 silly publish   readme: '# grunt\nGrunt is a task-based command line build tool for JavaScript projects.\n\n_Grunt is currently in beta. While I\'m already using it on multiple projects, it might have a minor issue or two. And things might change before its final release, based on your feedback. Please try it out in a project, and [make suggestions][issues] or [report bugs][issues]!_\n\n## Getting started <a name="getting-started" href="#getting-started" title="Link to this section">⚑</a>\nBe sure to read the [getting started guide](/cowboy/grunt/blob/master/docs/getting_started.md), which is a complete guide to configuring grunt for your project. In addition, check out the [example gruntfiles](/cowboy/grunt/blob/master/docs/example_gruntfiles.md) which highlight a number of fairly common configurations.\n\n## Built-in tasks <a name="built-in-tasks" href="#built-in-tasks" title="Link to this section">⚑</a>\nAs of now, grunt has the following predefined tasks that you can use in your project:\n\n* [concat](/cowboy/grunt/blob/master/docs/task_concat.md) - Concatenate files.\n* [init](/cowboy/grunt/blob/master/docs/task_init.md) - Generate project scaffolding from a predefined template.\n* [lint](/cowboy/grunt/blob/master/docs/task_lint.md) - Validate files with [JSHint][jshint].\n* [min](/cowboy/grunt/blob/master/docs/task_min.md) - Minify files with [UglifyJS][uglify].\n* [qunit](/cowboy/grunt/blob/master/docs/task_qunit.md) - Run [QUnit][qunit] unit tests in a headless [PhantomJS][phantom] instance.\n* [server](/cowboy/grunt/blob/master/docs/task_server.md) - Start a static web server.\n* test - Run unit tests with [nodeunit][nodeunit].\n* watch - Run predefined tasks whenever watched files change.\n\n_(More documentation forthcoming)_\n\n## Custom tasks <a name="custom-tasks" href="#custom-tasks" title="Link to this section">⚑</a>\nIn addition to the built-in tasks, you can create your own tasks. Don\'t like a built-in task\'s default behavior? Override it. Check out the [grunt API documentation](/cowboy/grunt/blob/master/docs/api.md) and the [built-in tasks source](/cowboy/grunt/blob/master/tasks) for everything you need to know about creating custom tasks.\n\n## Documentation <a name="documentation" href="#documentation" title="Link to this section">⚑</a>\nTake a look at the [documentation table of contents][docs] for all the things.\n\n## Why does grunt exist? <a name="why-does-grunt-exist" href="#why-does-grunt-exist" title="Link to this section">⚑</a>\nDoing all this stuff manually is a total pain, and building all this stuff into a gigantic Makefile / Jakefile / Cakefile / Rakefile / ?akefile that\'s maintained across all my projects was also becoming a total pain. Since I always found myself performing the same tasks over and over again, for every project, it made sense to build a task-based build tool.\n\nBeing primarily a JavaScript developer, I decided to use [Node.js][node] and [npm][npm] because the dependencies I most care about ([JSHint][jshint] and [UglifyJS][uglify]) were already npm modules. That being said, while Node.js was designed to support highly-concurrent asynchronous-IO-driven web servers, it was clearly NOT designed to make command-line build tools. But none of that matters, because grunt works. Just install it and see.\n\n## Installing grunt <a name="installing-grunt" href="#installing-grunt" title="Link to this section">⚑</a>\n\nGrunt is available as an [npm][npm] module. If you install grunt globally via `npm install -g grunt`, it will be available for use in all of your projects. Once grunt has been installed, you can type `grunt --help` at the command line for more information. And if you want to see grunt "grunt" itself, cd into grunt\'s directory and type `grunt`\n\n_Note: in Windows, you may need to run grunt as `grunt.cmd`. See the [FAQ](/cowboy/grunt/blob/master/docs/faq.md) for more Windows-specific information._\n\nFor projects already using grunt, you\'re done. Otherwise, if you\'re adding grunt to an existing project or starting from scratch, check out the [getting started guide](/cowboy/grunt/blob/master/docs/getting_started.md), which is a complete guide to configuring grunt for your project.\n\n## Release History <a name="release-history" href="#release-history" title="Link to this section">⚑</a>\n_(Until v1.0.0, this will only be updated when major or breaking changes are made)_\n\n* 2012/06/25 - v0.3.10 - Updating a few dependencies to work with node 0.8.x (0.6.x should still work).\n* 2012/04/18 - v0.3.9 - The min task (via the uglify helper) now appends a semicolon to the end of the generated source.\n* 2012/04/06 - v0.3.8 - Init template tweaks. Anchor links added to docs, along with grunt-internal docs task to generate them. The watch task now supports multiple targets with separate wildcards and tasks. Locally-installed grunt will override global grunt even when run from global "grunt" script.\n* 2012/04/01 - v0.3.7 - Tweaked the behavior of the init template `exports.warnOn` property and added more init template documentation. Fixed duplicate PhantomJS debug output in qunit task. Added useful nodeunit and qunit comments into init template generated test .js files.\n* 2012/03/28 - v0.3.6 - Fixed a `--help` screen issue, a few grunt plugin related issues, and attempted to improve the overall grunt plugin docs and API.\n* 2012/03/27 - v0.3.5 - Fixed a handful of weird Windows issues. Changed default m/d/yyyy dates to yyyy-mm-dd ISO 8601. Fixed some init task bugs, docs errata, and added a lot more content to the init task docs.\n* 2012/03/26 - v0.3.3 - Added a "gruntfile" init template. Create a basic gruntfile in seconds with `grunt init:gruntfile`. A few other minor fixes.\n* 2012/03/25 - v0.3.2 - Init tasks can now specify a file matching wildcard for the initial "files exist" warning. The jQuery init template now has jQuery 1.7.2. Fixed a bug in the `task.expand*` methods.\n* 2012/03/25 - v0.3.1 - Added a few methods. Substantially reworked the init task and templates.\n* 2012/03/23 - v0.3.0 - Too many changes to list. But in brief: completely reorganized the API, removed all globals, added docs and examples for nearly everything, built a preliminary plugin system (that still needs to be tested). PLEASE RTFM OK? THX U.\n* 2012/02/03 - v0.2.14 - Added a server task (which starts a static webserver for your tasks). The qunit task now uses PhantomJS instead of Zombie.js (4768 of 4971 jQuery unit test pass, neat), and supports both file wildcards as well as http:// or https:// urls. (static webserver, anyone?). Grunt should no longer "hang" when done.\n* 2012/01/29 - v0.2.5 - Added a "qunit" task as well as an init "jquery" template (as of now, there are also "node" and "commonjs" init templates).\n* 2012/01/22 - v0.2.1 - Removed handlebars, templates are universally handled by underscore now. Changed init task template tags from <% %> to {% %}. Banners beginning with /*! will no longer be stripped.\n* 2012/01/22 - v0.2.0 - Added "init" task with a sample template, reworked a lot of code. Hopefully it\'s backwards-compatible.\n* 2012/01/11 - v0.1.0 - Initial release.\n\n## License <a name="license" href="#license" title="Link to this section">⚑</a>\nCopyright (c) 2012 "Cowboy" Ben Alman  \nLicensed under the MIT license.  \n<http://benalman.com/about/license/>\n\n\n[docs]: /cowboy/grunt/blob/master/docs/toc.md\n[docs-init]: /cowboy/grunt/blob/master/docs/task_init.md\n[issues]: /cowboy/grunt/issues\n\n[node]: http://nodejs.org/\n[npm]: http://npmjs.org/\n[jshint]: http://www.jshint.com/\n[uglify]: https://github.com/mishoo/UglifyJS/\n[nodeunit]: https://github.com/caolan/nodeunit\n[qunit]: http://docs.jquery.com/QUnit\n[phantom]: http://www.phantomjs.org/\n',
+1091 silly publish   _id: 'auto-grunt@0.0.2',
+1091 silly publish   dist: { shasum: 'fd108287498456525734b95c450bb3108bb5ab60' },
+1091 silly publish   _from: 'grunt' }
+1092 info prepublish auto-grunt@0.0.2
+1093 verbose url raw auto-grunt
+1094 verbose url resolving [ 'https://registry.npmjs.org/', './auto-grunt' ]
+1095 verbose url resolved https://registry.npmjs.org/auto-grunt
+1096 info retry registry request attempt 1 at 19:13:20
+1097 http PUT https://registry.npmjs.org/auto-grunt
+1098 http 409 https://registry.npmjs.org/auto-grunt
+1099 verbose url raw auto-grunt
+1100 verbose url resolving [ 'https://registry.npmjs.org/', './auto-grunt' ]
+1101 verbose url resolved https://registry.npmjs.org/auto-grunt
+1102 info retry registry request attempt 1 at 19:13:24
+1103 http GET https://registry.npmjs.org/auto-grunt
+1104 http 200 https://registry.npmjs.org/auto-grunt
+1105 error publish fail Cannot publish over existing version.
+1105 error publish fail Bump the 'version' field, set the --force flag, or
+1105 error publish fail     npm unpublish 'auto-grunt@0.0.2'
+1105 error publish fail and try again
+1106 error System Windows_NT 5.1.2600
+1107 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "-force" "auto-grunt"
+1108 error cwd C:\Documents and Settings\mozhuoying\Application Data\npm\node_modules\git\auto-grunt\tasks
+1109 error node -v v0.8.1
+1110 error npm -v 1.1.33
+1111 error code EPUBLISHCONFLICT
+1112 error message publish fail
+1113 verbose exit [ 1, true ]
